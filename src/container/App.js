@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 // import './App.css';
 import Header from '../components/Header';
 import Card from '../components/Card';
+import Aside from '../components/Aside';
 // import Scroll from '../components/Scroll';
 import 'tachyons';
 
@@ -13,7 +14,10 @@ class App extends Component {
         <header className="App-header">
           <Header />
         </header>
-        <div className="tc">
+        <aside className="fl w-25">
+          <Aside />
+        </aside>
+        <div className="tc fl w-75">
           <Card />
           <Card />
           <Card />
