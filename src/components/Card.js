@@ -3,7 +3,7 @@ import 'tachyons';
 
 const Card = ({ name, email, id}) => {
     return (
-        <div className="tc bg-light-green dib br3 pa0 ma2 grow bw2 shadow-5">
+        <div className="tc bg-light-green dib br3 pa0 ma3 dim">
             <img src={`https://picsum.photos/200/?random`} alt="robofriend"/>
             <div>
                 <h2>Bar Name</h2>

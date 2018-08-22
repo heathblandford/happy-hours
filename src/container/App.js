@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 import Header from '../components/Header';
 import Card from '../components/Card';
-import Scroll from '../components/Scroll';
+// import Scroll from '../components/Scroll';
 import 'tachyons';
 
 class App extends Component {
@@ -14,26 +14,24 @@ class App extends Component {
           <Header />
         </header>
         <div className="tc">
-          <Scroll>
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-          </Scroll>
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
         </div>
       </div>
     );
