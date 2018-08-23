@@ -1,14 +1,13 @@
 import React from 'react';
-import 'tachyons';
 
-const Card = ({ name, email, id}) => {
+const Card = ({ barName, number, neighborhood, id }) => {
     return (
-        <div className="tc bg-navy dib br3 pa0 ma3 dim white">
-            <img src={`https://picsum.photos/200/?random`} alt="robofriend"/>
+        <div className="tc bg-navy dib br3 pa0 ma3 grow white">
+            <img src={`https://picsum.photos/400/?${id}`} alt="bar"/>
             <div>
-                <h2>Bar Name</h2>
-                <h5>Happy Hour Special</h5>
-                <p>Click for More!</p>
+                <h2>{barName}</h2>
+                <h5>{neighborhood}</h5>
+                <p>{number}</p>
             </div>
         </div>
     )

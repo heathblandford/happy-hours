@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
-// import './App.css';
 import Header from '../components/Header';
-import Card from '../components/Card';
-import Aside from '../components/Aside';
-// import Scroll from '../components/Scroll';
+// import Aside from '../components/Aside';
 import 'tachyons';
+import CardList from '../components/CardList';
+import { barList } from '../barList';
 
 class App extends Component {
   render() {
@@ -14,28 +12,8 @@ class App extends Component {
         <header className="App-header">
           <Header />
         </header>
-        <aside className="fl w-25">
-          <Aside />
-        </aside>
-        <div className="tc fl w-75">
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+        <div className="tc">
+          <CardList barList={barList}/>
         </div>
       </div>
     );

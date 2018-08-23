@@ -3,8 +3,8 @@ import 'tachyons';
 
 const Aside = (props) => {
     return (
-        <div className="bg-navy yellow">
-            <h1>YaYeet!</h1>
+        <div className="bg-navy yellow h-100">
+            <h1 className="f3 tc">YaYeet!</h1>
         </div>
     )
 }
