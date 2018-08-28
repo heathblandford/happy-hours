@@ -11,7 +11,7 @@ const CardList = ({ barList }) => { // function declaration with =>
             {
                 barList.map((user, i) => {
                     return (<Card
-                        id={barList[i].id}
+                        id={barList[i].ID}
                         barName={barList[i].Bar}
                         number={barList[i].Phone}
                         neighborhood={barList[i].Neighborhood}

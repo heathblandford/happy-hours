@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class Card extends Component {
     render() {
-        const { barName, neighborhood, id, special } = this.props;
+        const { barName, neighborhood, special, id } = this.props;
         let specialsMessage = "Looks like we don't have info on the happy hour special here. Send us a note to have it updated!";
 
         return (
