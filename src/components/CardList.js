@@ -1,26 +1,36 @@
-import React from 'react'; //imports react library
-import Card from './Card'; //imports Card component I made
+import React, { Component } from 'react';
+import Card from './Card';
 
+//find the day of the week *eyeroll*
 const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 const date = new Date();
 const dayOfTheWeek = days[date.getDay()];
 
-const CardList = ({ barList }) => { // function declaration with =>
-    return ( //functions gotta return something
-        <div>
-            {
-                barList.map((user, i) => {
-                    return (<Card
-                        id={barList[i].ID}
-                        barName={barList[i].Bar}
-                        number={barList[i].Phone}
-                        neighborhood={barList[i].Neighborhood}
-                        special={barList[i][`special${dayOfTheWeek}`]}
-                        />)
-                })
-            }
-        </div>
-    );
+class CardList extends Component {
+    render() {
+        const { barList } = this.props;
+
+        //sort to show bars with specials at top of list
+        barList.sort((a) => {
+            return (!a[`special${dayOfTheWeek}`]) ? 1 : -1;
+        });
+
+        return (
+            <div>
+                {
+                    barList.map((user, i) => {
+                        return (<Card
+                            id={barList[i].ID}
+                            barName={barList[i].Bar}
+                            number={barList[i].Phone}
+                            neighborhood={barList[i].Neighborhood}
+                            special={barList[i][`special${dayOfTheWeek}`]}
+                            />)
+                    })
+                }
+            </div>
+        );
+    }
 }
 
 export default CardList;
