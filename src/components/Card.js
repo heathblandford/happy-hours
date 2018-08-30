@@ -8,8 +8,8 @@ class Card extends Component {
 
         return (
             <div className="tc bg-navy br3 pa0 dib mw5 ma3 grow white outline">
-                <img src={`https://picsum.photos/300/200/?${id}`} alt="bar"/>
-                <h2 className="f4">{barName}</h2>
+                <img src={`https://picsum.photos/300/?${id}`} alt="bar"/>
+                <h2 className="f4 h3">{barName}</h2>
                 <h5>Neighborhood: {neighborhood}</h5>
                 <p className="f6 pa3 h4">{!special ? specialsMessage : special}</p>
             </div>
