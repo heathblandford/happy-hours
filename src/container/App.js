@@ -1,19 +1,37 @@
 import React, { Component } from 'react';
 import Header from '../components/Header';
-// import Aside from '../components/Aside';
 import 'tachyons';
 import CardList from '../components/CardList';
+import Searchbox from '../components/Searchbox';
 import { barList } from '../barList';
 
 class App extends Component {
+  constructor(){
+    super()
+    this.state = {
+      listOfBars: barList,
+      searchfield: ''
+    }
+  }
+
+  onSearchChange = (event) => {
+    this.setState({ searchfield: event.target.value })
+    // console.log(filterBars);
+  }
+
   render() {
+    const filterBars = this.state.listOfBars.filter(bar => {
+      return bar.Bar.toLowerCase().includes(this.state.searchfield.toLowerCase());
+    })
+
     return (
       <div>
         <header className="App-header">
           <Header />
+          <Searchbox searchChange = {this.onSearchChange} />
         </header>
         <div className="tc">
-          <CardList barList={barList}/>
+          <CardList barList={filterBars}/>
         </div>
       </div>
     );
