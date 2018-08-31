@@ -26,7 +26,7 @@ class App extends Component {
 
     return (
       <div>
-        <header className="App-header">
+        <header className="tc">
           <Header />
           <Searchbox searchChange = {this.onSearchChange} />
         </header>
