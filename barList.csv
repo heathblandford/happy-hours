@@ -1,5 +1,5 @@
 ID,Bar,Description,Neighborhood,Address,Phone,Website,hoursMonday,hoursTuesday,hoursWednesday,hoursThursday,hoursFriday,hoursSaturday,hoursSunday,specialMonday,specialTuesday,specialWednesday,specialThursday,specialFriday,specialSaturday,specialSunday,Note
-1,"""Taft's Ale House""","""Artisanal beers, steaks & salads served in a classic brewpub named after Cincinnati’s favorite son.""","""Over-the-Rhine""","""1429 Race St, Cincinnati, OH 45202""","""(513) 334-1393""",http://taftsalehouse.com/,"""11:30AM–10PM""","""11:30AM–10PM""","""11:30AM–11PM""","""11:30AM–12AM""","""11:30AM–12AM""","""11:30AM–12AM""","""11:30AM–9PM""",,"""Taft Tuesdays - Enjoy Half-Price Pints & Growler Fills ALL DAY by wearing any Brewery or Beer Apparel. Don’t have any threads? Stop-n-shop in Nellie’s Tap Room to pick up your gear!""",,,,,,
+1,"""Taft's Ale House""","""Artisanal beers, steaks & salads served in a classic brewpub named after Cincinnati’s favorite son.""","""Over-the-Rhine""","""1429 Race St, Cincinnati, OH 45202""","""(513) 334-1393""",http://taftsalehouse.com/,"""11:30AM–10PM""","""11:30AM–10PM""","""11:30AM–11PM""","""11:30AM–12AM""","""11:30AM–12AM""","""11:30AM–12AM""","""11:30AM–9PM""",,Taft Tuesdays - Enjoy Half-Price Pints & Growler Fills ALL DAY by wearing any Brewery or Beer Apparel. Don’t have any threads? Stop-n-shop in Nellie’s Tap Room to pick up your gear!,,,,,,
 2,"""Sundry and Vice""","""Striking, well-appointed cocktail spot with a tin ceiling & vintage feel offering inventive drinks.""","""Over-the-Rhine""","""18 W 13th St, Cincinnati, OH 45202""","""(513) 721-8423""",http://sundryandvice.com/,"""Closed""","""4PM–2AM""","""4PM–2AM""","""4PM–2AM""","""4PM–2AM""","""12PM–2AM""","""12PM–12AM""",,,,,,,,
 3,"""The Rook OTR""",,"""Over-the-Rhine""","""1115 Vine St, Cincinnati, OH 45202""","""(513) 954-8191""",https://www.facebook.com/therookotr/,"""4PM–12AM""","""4PM–12AM""","""4PM–12AM""","""4PM–12AM""","""4PM–2AM""","""11AM–2AM""","""11AM–12AM""",,,,,,,,"""Lots of different events. """
 4,The Lackman,"""Luxe lounge in a turn-of-the-century building offering craft beers & eclectic wines, plus a jukebox.""","""Over-the-Rhine""","""1237 Vine Street, Cincinnati, OH 45202""","""(513) 381-0741""",http://www.lackmanbar.com/,"""4PM–2AM""","""4PM–2AM""","""4PM–2AM""","""4PM–2AM""","""3PM–2AM""","""12PM–2AM""","""12PM–12AM""","HAPPY HOUR
@@ -151,10 +151,7 @@ $1.50 OYSTERS – SHUCKER’S CHOICE
 $1 OFF ALL BEERS + $7 RED, WHITE AND ROSÉ WINES","HAPPY HOUR
 weeknights from 5 – 7 p.m.
 $1.50 OYSTERS – SHUCKER’S CHOICE
-$1 OFF ALL BEERS + $7 RED, WHITE AND ROSÉ WINESHAPPY HOUR
-weeknights from 5 – 7 p.m.
-$1.50 OYSTERS – SHUCKER’S CHOICE
-$1 OFF ALL BEERS + $7 RED, WHITE AND ROSÉ WINES","HAPPY HOUR
+$1 OFF ALL BEERS + $7 RED, WHITE AND ROSÉ WINESHAPPY HOUR","HAPPY HOUR
 weeknights from 5 – 7 p.m.
 $1.50 OYSTERS – SHUCKER’S CHOICE
 $1 OFF ALL BEERS + $7 RED, WHITE AND ROSÉ WINESHAPPY HOUR
@@ -191,11 +188,7 @@ $12 baskets of Fish & Chios",,,
 25,"""Vestry at the Transept""",,"""Over-the-Rhine""","""1205 Elm St, Cincinnati, OH 45202""","""(513) 841-9999""",http://vestryotr.com/,"""Closed""","""Closed""","""4PM–12AM""","""4PM–12AM""","""4PM–2AM""","""4PM–2AM""","""Closed""","HAPPY HOUR 4P-8P
 $4 CALLS, $3 DOMESTICS, $2 OFF DRAFTS, $5 GLASSES OF SPANISH WINE
 Monday: “Manhattan Mondays”
-$5 Bulleit Manhattans*HAPPY HOUR 4P-8P
-$4 CALLS, $3 DOMESTICS, $2 OFF DRAFTS, $5 GLASSES OF SPANISH WINE
-Monday: “Manhattan Mondays”
-$5 Bulleit Manhattans*","HAPPY HOUR 4P-8P
-$4 CALLS, $3 DOMESTICS, $2 OFF DRAFTS, $5 GLASSES OF SPANISH WINEHAPPY HOUR 4P-8P
+$5 Bulleit Manhattans","HAPPY HOUR 4P-8P
 $4 CALLS, $3 DOMESTICS, $2 OFF DRAFTS, $5 GLASSES OF SPANISH WINE","HAPPY HOUR 4P-8P
 $4 CALLS, $3 DOMESTICS, $2 OFF DRAFTS, $5 GLASSES OF SPANISH WINE
 Wednesday: “Wine Down Wednesdays”
@@ -232,12 +225,9 @@ $7 Red & White Wine Sangrias, Traditional Mimosas, Draft Beers, $5 Limoncello Cr
    • Specialty cocktails are $5
    • Discounted select sushi rolls
    • Ramen is only $4.5","HAPPY HOUR  DAILY - 4-7PM
-   • Specialty cocktails are $5
-   • Discounted select sushi rolls
-   • Ramen is only $4.5HAPPY HOUR  DAILY - 4-7PM
-   • Specialty cocktails are $5
-   • Discounted select sushi rolls
-   • Ramen is only $4.5","HAPPY HOUR  DAILY - 4-7PM
+Specialty cocktails are $5
+Discounted select sushi rolls
+Ramen is only $4.50","HAPPY HOUR  DAILY - 4-7PM
    • Specialty cocktails are $5
    • Discounted select sushi rolls
    • Ramen is only $4.5HAPPY HOUR  DAILY - 4-7PM
@@ -269,18 +259,11 @@ $7 Red & White Wine Sangrias, Traditional Mimosas, Draft Beers, $5 Limoncello Cr
    • Discounted select sushi rolls
    • Ramen is only $4.5",
 29,Ché,"""Artisanal Argentine cuisine & empanadas, plus drinks, offered in a rustic, dimly lit dining room.""","""Over-the-Rhine""","""1342 Walnut St, Cincinnati, OH 45202""","""(513) 345-8838""",http://www.checincinnati.com/,"""4PM–12AM""","""11AM–2:30AM""","""11AM–2:30AM""","""11AM–2:30AM""","""11AM–2:30AM""","""11AM–2:30AM""","""11AM–12AM""","Malbec Mondays
-Come enjoy any of our Malbecs by the glass for only $5 all day long.Malbec Mondays
 Come enjoy any of our Malbecs by the glass for only $5 all day long.","
 Service Industry Night
 Our friends in the Service Industry enjoy 30% off drinks all night long!
 $3 Jack Daniels
-When:
-Every Tuesday from 7pm - Close.
-Service Industry Night
-Our friends in the Service Industry enjoy 30% off drinks all night long!
-$3 Jack Daniels
-When:
-Every Tuesday from 7pm - Close.","Whiskey Wednesday $3
+","Whiskey Wednesday $3
 Get over Hump Day by joining us for $3 shots of Jameson all evening long.Whiskey Wednesday $3
 Get over Hump Day by joining us for $3 shots of Jameson all evening long.","Thirsty Thursday$4 Drafts
 Beer aficionados unite! Thursday at Ché means it's time for $4 drafts on any of our 20 beers on tap!Thirsty Thursday$4 Drafts
