@@ -2,11 +2,11 @@
     min-height: 200px;
     max-height: max-content;
     width: 40%;
-    border: 1px solid black;
     border-radius: 25px;
     margin-bottom: 25px;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
     transition: all .1s ease-in-out;
+    background-color: #2a3d8c;
 }
 
 .Card:hover{
@@ -18,6 +18,14 @@
     font-family: 'Cairo', sans-serif;
     font-weight: bold;
     font-size: 2rem;
+    color: #efda39;
+}
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    width: 80%;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
 }
 
 .neighborhood {
@@ -25,11 +33,13 @@
     font-size: 1.2rem;
     padding-left: 15px;
     font-weight: bold;
+    color: #efda39;
 }
 
 .special {
     font-family: 'Cairo', sans-serif;
-    padding-left: 15px;
+    padding: 10px 15px;
+    color: white;
 }
 
 /* media queries */
