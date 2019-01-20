@@ -1,0 +1,40 @@
+.Card {
+    min-height: 200px;
+    max-height: max-content;
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    transition: all .1s ease-in-out;
+}
+
+.Card:hover{
+    transform: scale(1.05);
+}
+
+.barName {
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.neighborhood {
+    font-family: 'Cairo', sans-serif;
+    font-size: 1.2rem;
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+.special {
+    font-family: 'Cairo', sans-serif;
+    padding-left: 15px;
+}
+
+/* media queries */
+@media only screen and (max-width: 700px) {
+    .Card {
+        width: 60%;
+    }
+}

@@ -1,0 +1,11 @@
+header {
+    margin-bottom: 50px;
+    background-color: #2a3d8c;
+    width: 100%;
+    padding: 0;
+}
+
+.Card {
+    margin: 0 auto;
+    margin-bottom: 25px;
+}

@@ -1,12 +1,13 @@
 import React from 'react';
+import '../Stylizers/card.css'
 
 const Card = ({ barName, neighborhood, special, id }) => {
     return(
-        <div className="tc bg-navy br3 pa0 dib mw5 ma3 grow white outline">
+        <div className="Card">
         {/*<img src={`https://picsum.photos/300/?${id}`} alt="bar"/>*/}
-            <h2 className="f4 pv3">{barName}</h2>
-            <h5>Neighborhood: {neighborhood}</h5>
-            <p className="f6 pa2">{!special ? "Looks like we don't have info on the happy hour special here. Send us a note to have it updated!" : special}</p>
+            <h2 className="barName">{barName}</h2>
+            <h5 className="neighborhood">Neighborhood: {neighborhood}</h5>
+            <p className="special">{!special ? "Looks like we don't have info on the happy hour special here. Send us a note to have it updated!" : special}</p>
         </div>
     )
 }

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import Header from '../components/Header';
-import 'tachyons';
 import CardList from '../components/CardList';
 import Searchbox from '../components/Searchbox';
 import { barList } from '../barList';
+import './app.css';
 
 class App extends Component {
   constructor(){
@@ -26,7 +26,7 @@ class App extends Component {
 
     return (
       <div>
-        <header className="tc">
+        <header>
           <Header />
           <Searchbox searchChange = {this.onSearchChange} />
         </header>
