@@ -644,7 +644,7 @@ export const barList = [
     "specialThursday": "Happy Hour 4-7 PM\n$5 - Wine, Beer, Wine Cocktails, Olives and Cheese, Bread & OilHappy Hour 4-7 PM\n$5 - Wine, Beer, Wine Cocktails, Olives and Cheese, Bread & Oil",
     "specialFriday": "Happy Hour 4-7 PM\n$5 - Wine, Beer, Wine Cocktails, Olives and Cheese, Bread & OilHappy Hour 4-7 PM\n$5 - Wine, Beer, Wine Cocktails, Olives and Cheese, Bread & Oil",
     "specialSaturday": "",
-    "specialSunday": "Sangria Sunday 12-10PM\n$7 Red & White Wine Sangrias, Traditional Mimosas, Draft Beers, $5 Limoncello Crema, $4 Limoncello ClassicSangria Sunday 12-10PM\n$7 Red & White Wine Sangrias, Traditional Mimosas, Draft Beers, $5 Limoncello Crema, $4 Limoncello Classic",
+    "specialSunday": "Sangria Sunday 12-10PM\n$7 Red & White Wine Sangrias, Traditional Mimosas, Draft Beers, $5 Limoncello Crema, $4 Limoncello Classic",
     "Note": ""
   },
   {
