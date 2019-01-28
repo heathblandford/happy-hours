@@ -9,3 +9,9 @@ Currently the website is pulling from a single JSON object, which was converted 
 Also some upgrades will be an "Add your own" feature, and a "correct us if we're wrong" feature where someone (or a bar themselves) can let us know if we have a deal wrong, or if we have a bar with no deal for that day!
 
 Pull Requests welcome!
+
+
+To Do:
+- [ ] Modal on card click, this is where the "tell us we're wrong" feature would be
+- [ ] Add your own on main page - should just be a + sign?
+- [ ] move from single JSON file to mongodb backend
