@@ -5,7 +5,11 @@ header {
     padding: 0;
 }
 
+.tc {
+    text-align: center;
+    vertical-align: top;
+}
+
 .Card {
-    margin: 0 auto;
     margin-bottom: 25px;
 }
