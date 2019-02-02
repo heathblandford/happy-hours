@@ -3,9 +3,15 @@ import '../Stylizers/header.css';
 
 const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 const date = new Date();
-const dayOfTheWeek = days[date.getDay()];
+let dayOfTheWeek;
 
-const Header = (props) => {
+const Header = ({ dealDay }) => {
+    if(dealDay === ""){
+        dayOfTheWeek = days[date.getDay()];
+    } else {
+        dayOfTheWeek = dealDay
+    }
+
     return (
         <div className="header">
             <h1 className="title">Cincinnati Happy Hours!</h1>

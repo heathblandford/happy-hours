@@ -3,6 +3,25 @@ header {
     background-color: #2a3d8c;
     width: 100%;
     padding: 0;
+    display: inline-block;
+}
+
+.neighborhoodFilter {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.dayFilter {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.filters {
+    text-align: center;
+}
+
+.filters button {
+    margin-bottom: 10px;
 }
 
 .tc {
