@@ -8,7 +8,7 @@ const Card = ({ barName, neighborhood, special, dayOfTheWeek, id }) => {
             <h2 className="barName">{barName}</h2>
             <hr className="style-two" />
             <h5 className="neighborhood">Neighborhood: {neighborhood}</h5>
-            <h5 className="dayOfTheWeekCard">Showing {dayOfTheWeek}'s deals</h5>
+            <h5 className="dayOfTheWeekCard">For {dayOfTheWeek}:</h5>
             <p className="special">{!special ? "Looks like we don't have info on the happy hour special here. Send us a note to have it updated!" : special}</p>
         </div>
     )

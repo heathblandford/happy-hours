@@ -9,8 +9,7 @@ const Header = (props) => {
     return (
         <div className="header">
             <h1 className="title">Cincinnati Happy Hours!</h1>
-            <p className="slogan">The TOP Happy Hour Deals all over the city!</p>
-            <p className="deals">Now showing deals for <span className="dayOfTheWeek">{dayOfTheWeek}</span></p>
+            <p className="slogan">Now showing you <span className="dayOfTheWeek">{dayOfTheWeek}'s</span> Deals!</p>
         </div>
     );
 }
