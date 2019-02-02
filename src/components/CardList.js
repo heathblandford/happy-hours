@@ -22,6 +22,7 @@ const CardList = ({ barList }) => {
                         number={barList[i].Phone}
                         neighborhood={barList[i].Neighborhood}
                         special={barList[i][`special${dayOfTheWeek}`]}
+                        dayOfTheWeek={dayOfTheWeek}
                         />)
                 })
             }

@@ -38,6 +38,14 @@ hr.style-two {
     color: #efda39;
 }
 
+.dayOfTheWeekCard {
+    font-family: 'Cairo', sans-serif;
+    color: #efda39;
+    text-decoration: none;
+    font-size: 1rem;
+    padding-left: 15px;
+}
+
 .special {
     font-family: 'Cairo', sans-serif;
     padding: 10px 15px;
