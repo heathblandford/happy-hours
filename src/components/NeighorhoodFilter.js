@@ -2,8 +2,8 @@ import React from "react";
 
 const NeighborhoodFilter = ({ neighborhoodChange }) => {
   return (
-    <div className="neighborhoodFilter" id="nf">
-      <select onChange={neighborhoodChange}>
+    <div className="neighborhoodFilter">
+      <select onChange={neighborhoodChange} id="nf">
         <option value="">Neighborhood</option>
         <option value="Oakley">Oakley</option>
         <option value="Over-the-Rhine">OTR</option>

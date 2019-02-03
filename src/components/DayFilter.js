@@ -3,7 +3,7 @@ import React from "react";
 const DayFilter = ({ dayChange }) => {
   return (
     <div className="dayFilter">
-      <select onChange={dayChange}>
+      <select onChange={dayChange} id="df">
         <option value="">Pick a Day</option>
         <option value="Sunday">Sunday</option>
         <option value="Monday">Monday</option>

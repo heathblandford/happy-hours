@@ -39,8 +39,8 @@ class App extends Component {
 
   clearFilters() {
     this.setState({ searchfield: '', neighborhoodFilter: '', dayFilter: '' });
-    document.getElementById('nf').selectedIndex = '0';
-    document.getElementById('df').selectedIndex = '0';
+    document.getElementById('nf').selectedIndex = 0;
+    document.getElementById('df').selectedIndex = 0;
   }
 
   render() {
