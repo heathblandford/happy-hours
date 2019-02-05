@@ -7,7 +7,7 @@ const NeighborhoodFilter = ({ neighborhoodChange }) => {
         <option value="">Neighborhood</option>
         <option value="Oakley">Oakley</option>
         <option value="Over-the-Rhine">OTR</option>
-        <option value="Banks">Banks</option>
+        <option value="Banks">The Banks</option>
       </select>
     </div>
   );
