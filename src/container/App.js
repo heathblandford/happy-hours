@@ -59,7 +59,7 @@ class App extends Component {
         <header>
           <Header dealDay={dealDayFilter} />
           <div className="filters">
-            <button onClick={this.clearFilters} className="button">Clear</button>
+            <button onClick={this.clearFilters} className="button">Clear Filters</button>
             <DayFilter dayChange={this.onDayChange} />
             <NeighborhoodFilter
               neighborhoodChange={this.onNeighborhoodFilter}

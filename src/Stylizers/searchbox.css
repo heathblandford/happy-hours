@@ -2,7 +2,7 @@ input[type="search"] {
   -moz-appearance: none; /* older firefox */
   -webkit-appearance: none; /* safari, chrome, edge and ie mobile */
   appearance: none; /* rest */
-  height: 30px;
+  height: 35px;
   width: 300px;
   border-radius: 15px;
   color: #2a3d8c;
@@ -10,6 +10,7 @@ input[type="search"] {
   font-size: 1.2rem;
   font-weight: bold;
   font-family: "Cairo", sans-serif;
+  margin-bottom: 10px;
 }
 
 input[type="search"]::placeholder {
@@ -31,7 +32,7 @@ input[type="search"]:focus {
     }
 
     input[type="search"]::placeholder {
-        font-size: 0.5rem;
+        font-size: 1rem;
     }
 }
 

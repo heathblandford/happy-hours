@@ -1,4 +1,5 @@
 import React from "react";
+import '../Stylizers/neighborhoodfilter.css';
 
 const NeighborhoodFilter = ({ neighborhoodChange }) => {
   return (
