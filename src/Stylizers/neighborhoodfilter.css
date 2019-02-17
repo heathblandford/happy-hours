@@ -6,11 +6,12 @@ select {
   font-weight: bold;
   font-family: "Cairo", sans-serif;
   color: #2e1300;
-  -webkit-appearance: none;
+  /* -webkit-appearance: none; */
   vertical-align: top;
   margin-bottom: 10px;
   border: none;
   border-radius: 0;
+  text-align: center;
 }
 
 select:focus{

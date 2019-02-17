@@ -19,6 +19,7 @@ input[type="search"]::placeholder {
   text-align: center;
   font-family: "Cairo", sans-serif;
   font-size: 1.2rem;
+  color: #2e1300;
 }
 
 input[type="search"]:focus {
