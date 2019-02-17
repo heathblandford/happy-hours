@@ -4,7 +4,7 @@ import '../Stylizers/card.css'
 const Card = ({ barName, neighborhood, special, id }) => {
     return(
         <div className="Card">
-            {/* <img src={`https://picsum.photos/100/?${id}`} alt="bar"/> */}
+            <img src={`https://picsum.photos/100/?${id}`} alt="bar" className="responsiveImg"/>
             <h2 className="barName">{barName}</h2>
             <hr className="style-two" />
             <h5 className="neighborhood">Neighborhood: {neighborhood}</h5>

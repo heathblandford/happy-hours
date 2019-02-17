@@ -38,9 +38,9 @@ class App extends Component {
   };
 
   clearFilters() {
-    this.setState({ searchfield: '', neighborhoodFilter: '', dayFilter: '' });
-    document.getElementById('nf').selectedIndex = 0;
-    document.getElementById('df').selectedIndex = 0;
+    this.setState({ searchfield: "", neighborhoodFilter: "", dayFilter: "" });
+    document.getElementById("nf").selectedIndex = 0;
+    document.getElementById("df").selectedIndex = 0;
   }
 
   render() {
@@ -64,7 +64,11 @@ class App extends Component {
               neighborhoodChange={this.onNeighborhoodFilter}
             />
             <Searchbox searchChange={this.onSearchChange} />
-            <button onClick={this.clearFilters} className="button">Clear Filters</button>
+            <div>
+              <button onClick={this.clearFilters} className="button">
+                Clear Filters
+              </button>
+            </div>
           </div>
         </header>
         <div className="tc">

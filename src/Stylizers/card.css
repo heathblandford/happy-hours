@@ -1,59 +1,73 @@
 .Card {
-    display: inline-block;
-    height: 500px;
-    width: 400px;
-    margin: 25px;
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
-    transition: all .1s ease-in-out;
-    background-color: white;
-    vertical-align: top;
+  display: inline-block;
+  height: 600px;
+  width: 400px;
+  margin: 25px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+  transition: all 0.1s ease-in-out;
+  background-color: white;
+  vertical-align: top;
 }
 
-.Card:hover{
-    transform: scale(1.05);
+.Card:hover {
+  transform: scale(1.05);
+}
+
+.responsiveImg {
+  width: 100%;
+  height: 200px;
 }
 
 .barName {
-    text-align: center;
-    font-family: 'Cairo', sans-serif;
-    font-weight: bold;
-    font-size: 2rem;
-    color: #2e1300;
-    padding: 0px 10px;
+  text-align: center;
+  font-family: "Cairo", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #2e1300;
+  padding: 0px 10px;
 }
 
 hr.style-two {
-    border: 0;
-    height: 1px;
-    width: 80%;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+  border: 0;
+  height: 1px;
+  width: 80%;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.75),
+    rgba(255, 255, 255, 0)
+  );
 }
 
 .neighborhood {
-    font-family: 'Cairo', sans-serif;
-    font-size: 1.2rem;
-    padding-left: 15px;
-    font-weight: bold;
-    color: #2e1300;
+  font-family: "Cairo", sans-serif;
+  font-size: 1.2rem;
+  padding-left: 15px;
+  font-weight: bold;
+  color: #2e1300;
 }
 
 .dayOfTheWeekCard {
-    font-family: 'Cairo', sans-serif;
-    color: #efda39;
-    text-decoration: none;
-    font-size: 1rem;
-    padding-left: 15px;
+  font-family: "Cairo", sans-serif;
+  color: #efda39;
+  text-decoration: none;
+  font-size: 1rem;
+  padding-left: 15px;
 }
 
 .special {
-    font-family: 'Cairo', sans-serif;
-    padding: 10px 15px;
-    color: #2e1300;
+  font-family: "Cairo", sans-serif;
+  padding: 10px 15px;
+  color: #2e1300;
 }
 
 /* media queries */
 @media only screen and (max-width: 700px) {
-    .Card {
-        width: 80%;
-    }
+  .Card {
+    width: 80%;
+  }
+
+  .responsiveImg{
+      width: 100%;
+  }
 }
