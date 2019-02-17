@@ -7,21 +7,33 @@ header {
   background-color: #dc8c01;
   width: 100%;
   padding: 0;
-  display: inline-block;
 }
 
 .neighborhoodFilter {
-  text-align: center;
   margin-bottom: 10px;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .dayFilter {
-  text-align: center;
   margin-bottom: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.Searchbox {
+  display: inline-block;
 }
 
 .filters {
+  width: 100vw;
+  display: inline-block;
   text-align: center;
+  vertical-align: top;
+}
+
+.filters *{
+  padding: 5px;
 }
 
 .tc {
@@ -41,9 +53,10 @@ header {
   padding: 8px 16px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   margin-bottom: 20px;
+  display: inline-block;
+  margin: 5px;
 }
 
 .filters button:hover {
