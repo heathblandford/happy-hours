@@ -1,17 +1,20 @@
 select {
   height: 35px;
   width: 300px;
-  border-radius: 15px;
   text-align: center;
   font-size: 1.2rem;
   font-weight: bold;
   font-family: "Cairo", sans-serif;
-  color: #2a3d8c;
-  -webkit-appearance: none;
+  color: #2e1300;
+  /* -webkit-appearance: none; */
   vertical-align: top;
   margin-bottom: 10px;
 }
 
-select::-ms-expand {
-    display: none;
+select:focus{
+  outline: none;
 }
+
+/* select::-ms-expand {
+    display: none;
+} */

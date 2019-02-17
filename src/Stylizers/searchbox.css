@@ -4,8 +4,8 @@ input[type="search"] {
   appearance: none; /* rest */
   height: 35px;
   width: 300px;
-  border-radius: 15px;
-  color: #2a3d8c;
+  /* border-radius: 15px; */
+  color: #2e1300;
   text-align: center;
   font-size: 1.2rem;
   font-weight: bold;

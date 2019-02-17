@@ -1,6 +1,10 @@
+#root {
+  background-color: #dc8c01;
+}
+
 header {
   margin-bottom: 50px;
-  background-color: #2a3d8c;
+  background-color: #dc8c01;
   width: 100%;
   padding: 0;
   display: inline-block;
@@ -23,6 +27,7 @@ header {
 .tc {
   text-align: center;
   vertical-align: top;
+  background-color: #dc8c01;
 }
 
 .Card {
@@ -30,10 +35,9 @@ header {
 }
 
 .filters button {
-  background-color: #efda39; /* Green */
-  border: 1px solid transparent;
-  border-radius: 15px;
-  color: #2a3d8c;
+  background-color: transparent;
+  border: 1px solid #2e1300;
+  color: #2e1300;
   padding: 8px 16px;
   text-align: center;
   text-decoration: none;
@@ -43,9 +47,13 @@ header {
 }
 
 .filters button:hover {
-  background-color: #2a3d8c;
-  color: #efda39;
-  border: 1px solid #efda39;
+  background-color: #2e1300;
+  color: #dc8c01;
+  border: 1px solid #dc8c01;
+}
+
+.filters button:focus {
+  outline: none;
 }
 
 /* media queries  */

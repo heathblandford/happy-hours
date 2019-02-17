@@ -4,7 +4,7 @@
 
 .title {
     margin: 0;
-    color: #efda39;
+    color: #2e1300;
     font-size: 4rem;
     font-family: 'Righteous', cursive;
     font-weight: bold;
@@ -13,7 +13,7 @@
 
 .slogan {
     font-family: 'Cairo', sans-serif;
-    color: white;
+    color: #2e1300;
     font-size: 2rem;
 }
 
@@ -24,10 +24,8 @@
 
 .Searchbox {
     text-align: center;
-    padding-bottom: 10px;
-    box-shadow: 0 8px 5px 0px gray;
 }
 
 .dayOfTheWeek {
-    color: #efda39;
+    color: black;
 }

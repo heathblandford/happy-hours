@@ -1,12 +1,11 @@
 .Card {
     display: inline-block;
     height: 500px;
-    width: 350px;
-    border-radius: 25px;
+    width: 400px;
     margin: 25px;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
     transition: all .1s ease-in-out;
-    background-color: #2a3d8c;
+    background-color: white;
     vertical-align: top;
 }
 
@@ -19,7 +18,7 @@
     font-family: 'Cairo', sans-serif;
     font-weight: bold;
     font-size: 2rem;
-    color: #efda39;
+    color: #2e1300;
     padding: 0px 10px;
 }
 
@@ -35,7 +34,7 @@ hr.style-two {
     font-size: 1.2rem;
     padding-left: 15px;
     font-weight: bold;
-    color: #efda39;
+    color: #2e1300;
 }
 
 .dayOfTheWeekCard {
@@ -49,7 +48,7 @@ hr.style-two {
 .special {
     font-family: 'Cairo', sans-serif;
     padding: 10px 15px;
-    color: white;
+    color: #2e1300;
 }
 
 /* media queries */
