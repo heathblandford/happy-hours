@@ -25,10 +25,12 @@ const CardList = ({ barList, dealDay }) => {
                     return (<Card
                         id={barList[i].ID}
                         barName={barList[i].Bar}
-                        number={barList[i].Phone}
+                        phoneNumber={barList[i].Phone}
                         neighborhood={barList[i].Neighborhood}
                         special={barList[i][`special${dayOfTheWeek}`]}
                         dayOfTheWeek={dayOfTheWeek}
+                        address={barList[i].Address}
+                        website={barList[i].Website}
                         />)
                 })
             }

@@ -60,6 +60,35 @@ hr.style-two {
   color: #2e1300;
 }
 
+.Modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  height: max-content;
+}
+
+.Modal:focus {
+  outline: 0;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.Modal * {
+  padding-left: 10px;
+}
+
 /* media queries */
 @media only screen and (max-width: 700px) {
   .Card {
