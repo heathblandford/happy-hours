@@ -48,7 +48,7 @@ hr.style-two {
 
 .dayOfTheWeekCard {
   font-family: "Cairo", sans-serif;
-  color: #efda39;
+  color: #dc8c01;
   text-decoration: none;
   font-size: 1rem;
   padding-left: 15px;
@@ -68,8 +68,9 @@ hr.style-two {
   bottom: auto;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  background-color: #fff;
-  height: max-content;
+  background-color: #efefef;
+  height: 300px;
+  width: 800px;
 }
 
 .Modal:focus {
@@ -86,7 +87,28 @@ hr.style-two {
 }
 
 .Modal * {
-  padding-left: 10px;
+  padding: 0px 10px;
+}
+
+.Modal button {
+  background-color: #dc8c01;
+  border: none;
+  color: #2e1300;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: 2px solid transparent;
+}
+
+.Modal button:hover {
+  border: 2px solid #2e1300;
+}
+
+.Modal h1 {
+  margin: 0;
+  color: #2e1300;
 }
 
 /* media queries */
@@ -97,5 +119,12 @@ hr.style-two {
 
   .responsiveImg{
       width: 100%;
+  }
+
+  /* modal stuff */
+  .Modal {
+    height: max-content;
+    width: 90%;
+    padding: 10px 0;
   }
 }

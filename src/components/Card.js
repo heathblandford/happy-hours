@@ -40,19 +40,20 @@ class Card extends React.Component {
             : special}
         </p>
         {/* <p className="expand">click to see more</p> */}
-
+        
         <Modal
           isOpen={this.state.modalIsOpen}
           onAfterOpen={this.afterOpenModal}
           onRequestClose={this.closeModal}
           className="Modal"
+          overlayClassName="Overlay"
         >
           <h1>{barName}</h1>
           <h3>{neighborhood}</h3>
           <p>{phoneNumber}</p>
           <p>{address}</p>
           <p><a href={website}>{website}</a></p>
-          <button onClick={this.closeModal}>Close Modal</button>
+          <button onClick={this.closeModal}>Close</button>
         </Modal>
       </div>
     );
