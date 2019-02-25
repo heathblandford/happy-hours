@@ -39,7 +39,7 @@ class Card extends React.Component {
             ? "Looks like we don't have info on the happy hour special here. Send us a note to have it updated!"
             : special}
         </p>
-        {/* <p className="expand">click to see more</p> */}
+        <p className="expand">click to see more</p>
 
         <Modal
           isOpen={this.state.modalIsOpen}
