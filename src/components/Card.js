@@ -25,11 +25,11 @@ class Card extends React.Component {
     this.setState({ modalIsOpen: false});
   }
 
-  
+
 
   render() {
     const { barName, neighborhood, special, id, phoneNumber, address, website} = this.props;
-    
+
     return (
       <div className="Card" onClick={this.openModal}>
         <h2 className="barName">{barName}</h2>
@@ -40,7 +40,7 @@ class Card extends React.Component {
             : special}
         </p>
         {/* <p className="expand">click to see more</p> */}
-        
+
         <Modal
           isOpen={this.state.modalIsOpen}
           onAfterOpen={this.afterOpenModal}
@@ -53,7 +53,9 @@ class Card extends React.Component {
           <p>{phoneNumber}</p>
           <p>{address}</p>
           <p><a href={website}>{website}</a></p>
-          <button onClick={this.closeModal}>Close</button>
+          <div id="buttonHolder">
+            <button onClick={this.closeModal}>CLOSE</button>
+          </div>
         </Modal>
       </div>
     );

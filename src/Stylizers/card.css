@@ -70,7 +70,7 @@ hr.style-two {
   transform: translate(-50%, -50%);
   background-color: #efefef;
   height: 300px;
-  width: 800px;
+  width: 400px;
 }
 
 .Modal:focus {
@@ -91,23 +91,21 @@ hr.style-two {
 }
 
 .Modal button {
-  background-color: #dc8c01;
+  /* background-color: #dc8c01; */
   border: none;
   color: #2e1300;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  border: 2px solid transparent;
+  font-size: 14px;
 }
 
-.Modal button:hover {
-  border: 2px solid #2e1300;
+.Modal #buttonHolder {
+  text-align: center;
 }
 
 .Modal h1 {
-  margin: 0;
   color: #2e1300;
 }
 
