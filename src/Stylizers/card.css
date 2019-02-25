@@ -69,7 +69,8 @@ hr.style-two {
   margin-right: -50%;
   transform: translate(-50%, -50%);
   background-color: #efefef;
-  height: 300px;
+  min-height: 300px;
+  height: max-content;
   width: 400px;
 }
 
@@ -91,7 +92,7 @@ hr.style-two {
 }
 
 .Modal button {
-  /* background-color: #dc8c01; */
+  background-color: transparent;
   border: none;
   color: #2e1300;
   padding: 15px 32px;

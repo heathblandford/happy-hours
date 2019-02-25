@@ -52,7 +52,7 @@ class Card extends React.Component {
           <h3>{neighborhood}</h3>
           <p>{phoneNumber}</p>
           <p>{address}</p>
-          <p><a href={website}>{website}</a></p>
+          <p><a href={!website ? "#" : website}>{!website ? "hmmm... no website?" : website}</a></p>
           <div id="buttonHolder">
             <button onClick={this.closeModal}>CLOSE</button>
           </div>
