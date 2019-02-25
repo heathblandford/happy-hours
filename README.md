@@ -12,6 +12,6 @@ Pull Requests welcome!
 
 
 To Do:
-- [ ] Modal on card click, this is where the "tell us we're wrong" feature would be
+- [x] Modal on card click, this is where the "tell us we're wrong" feature would be
 - [ ] Add your own on main page - should just be a + sign?
-- [ ] move from single JSON file to mongodb backend
+- [ ] move from single JSON file to database
