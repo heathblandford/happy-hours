@@ -71,7 +71,7 @@ hr.style-two {
   background-color: #efefef;
   min-height: 300px;
   height: max-content;
-  width: 400px;
+  width: 600px;
 }
 
 .Modal:focus {
@@ -89,6 +89,12 @@ hr.style-two {
 
 .Modal * {
   padding: 0px 10px;
+}
+
+.Modal #mapID {
+  height: 100px;
+  width: 100%;
+  text-align: center;
 }
 
 .Modal button {

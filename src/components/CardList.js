@@ -31,6 +31,8 @@ const CardList = ({ barList, dealDay }) => {
                         dayOfTheWeek={dayOfTheWeek}
                         address={barList[i].Address}
                         website={barList[i].Website}
+                        lat={barList[i].lat}
+                        long={barList[i].long}
                         />)
                 })
             }
