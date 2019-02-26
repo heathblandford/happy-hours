@@ -21,7 +21,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.111325,
+    "long": -84.51750995
   },
   {
     "ID": 2,
@@ -45,7 +47,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1094369,
+    "long": -84.5160001
   },
   {
     "ID": 3,
@@ -69,7 +73,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": "Lots of different events. "
+    "Note": "Lots of different events.",
+    "lat": 39.1076943,
+    "long": -84.5148587
   },
   {
     "ID": 4,
@@ -86,14 +92,16 @@ export const barList = [
     "hoursFriday": "3PM–2AM",
     "hoursSaturday": "12PM–2AM",
     "hoursSunday": "12PM–12AM",
-    "specialMonday": "HAPPY HOUR\nHappy Hour | 4-8PM\n$2 Off Drafts\n$3.25 Domestics\n$4.50 Calls\n$5 Dark Horse Wines",
-    "specialTuesday": "HAPPY HOUR\nHappy Hour | 4-8PM\n$2 Off Drafts\n$3.25 Domestics\n$4.50 Calls\n$5 Dark Horse Wines",
-    "specialWednesday": "HAPPY HOUR\nHappy Hour | 4-8PM\n$2 Off Drafts\n$3.25 Domestics\n$4.50 Calls\n$5 Dark Horse Wines",
-    "specialThursday": "HAPPY HOUR\nHappy Hour | 4-8PM\n$2 Off Drafts\n$3.25 Domestics\n$4.50 Calls\n$5 Dark Horse Wines",
-    "specialFriday": "HAPPY HOUR\nHappy Hour | 4-8PM\n$2 Off Drafts\n$3.25 Domestics\n$4.50 Calls\n$5 Dark Horse Wines",
-    "specialSaturday": "HAPPY HOUR\nHappy Hour | 4-8PM\n$2 Off Drafts\n$3.25 Domestics\n$4.50 Calls\n$5 Dark Horse Wines",
-    "specialSunday": "HAPPY HOUR\nHappy Hour | 4-8PM\n$2 Off Drafts\n$3.25 Domestics\n$4.50 Calls\n$5 Dark Horse Wines",
-    "Note": ""
+    "specialMonday": "HAPPY HOUR, Happy Hour | 4-8PM, $2 Off Drafts, $3.25 Domestics, $4.50 Calls, $5 Dark Horse Wines",
+    "specialTuesday": "HAPPY HOUR, Happy Hour | 4-8PM, $2 Off Drafts, $3.25 Domestics, $4.50 Calls, $5 Dark Horse Wines",
+    "specialWednesday": "HAPPY HOUR, Happy Hour | 4-8PM, $2 Off Drafts, $3.25 Domestics, $4.50 Calls, $5 Dark Horse Wines",
+    "specialThursday": "HAPPY HOUR, Happy Hour | 4-8PM, $2 Off Drafts, $3.25 Domestics, $4.50 Calls, $5 Dark Horse Wines",
+    "specialFriday": "HAPPY HOUR, Happy Hour | 4-8PM, $2 Off Drafts, $3.25 Domestics, $4.50 Calls, $5 Dark Horse Wines",
+    "specialSaturday": "HAPPY HOUR, Happy Hour | 4-8PM, $2 Off Drafts, $3.25 Domestics, $4.50 Calls, $5 Dark Horse Wines",
+    "specialSunday": "HAPPY HOUR, Happy Hour | 4-8PM, $2 Off Drafts, $3.25 Domestics, $4.50 Calls, $5 Dark Horse Wines",
+    "Note": "",
+    "lat": 39.1093292,
+    "long": -84.5152165
   },
   {
     "ID": 5,
@@ -113,11 +121,13 @@ export const barList = [
     "specialMonday": "",
     "specialTuesday": "",
     "specialWednesday": "",
-    "specialThursday": "Live Music from Jess Lamb and Friends\n9:00 PM – 11:30 PM\nLive music from Cincinnati native, Jess Lamb, and special guests, every week!",
-    "specialFriday": "The Burning Caravan at Japp's\n 5:30 PM – 8:30 PM\nLive Music from The Burning Caravan from 530-830pm EVERY Friday!\nRotating Local DJ's in the Lounge\n9:00 PM – 11:30 PM\nEvery Friday night we host a DJ for a late night set in the lounge! Check us out on Facebook for info on this week's DJ! \n9pm-close every Friday!",
-    "specialSaturday": "Live Happy Hour Music\n6:00 PM – 9:00 PM\nLive Happy Hour Music Every Saturday.",
+    "specialThursday": "Live Music from Jess Lamb and Friends, 9:00 PM – 11:30 PM, Live music from Cincinnati native, Jess Lamb, and special guests, every week!",
+    "specialFriday": "The Burning Caravan at Japp's,  5:30 PM – 8:30 PM, Live Music from The Burning Caravan from 530-830pm EVERY Friday!, Rotating Local DJ's in the Lounge, 9:00 PM – 11:30 PM, Every Friday night we host a DJ for a late night set in the lounge! Check us out on Facebook for info on this week's DJ! , 9pm-close every Friday!",
+    "specialSaturday": "Live Happy Hour Music, 6:00 PM – 9:00 PM, Live Happy Hour Music Every Saturday.",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1088678,
+    "long": -84.5113795
   },
   {
     "ID": 6,
@@ -141,7 +151,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.108539,
+    "long": -84.5124497
   },
   {
     "ID": 7,
@@ -165,7 +177,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.111099,
+    "long": -84.5123402
   },
   {
     "ID": 8,
@@ -189,7 +203,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1086918,
+    "long": -84.5150696
   },
   {
     "ID": 9,
@@ -213,7 +229,9 @@ export const barList = [
     "specialFriday": "Happy Hour, 4-8pm",
     "specialSaturday": "Happy Hour, 4-8pm",
     "specialSunday": "Happy Hour, 4-8pm",
-    "Note": ""
+    "Note": "",
+    "lat": 39.10836,
+    "long": -84.5128840013411
   },
   {
     "ID": 10,
@@ -237,7 +255,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1072609,
+    "long": -84.514515
   },
   {
     "ID": 11,
@@ -254,14 +274,16 @@ export const barList = [
     "hoursFriday": "11AM–10PM",
     "hoursSaturday": "11AM–10PM",
     "hoursSunday": "10AM–9PM",
-    "specialMonday": "Six Dollar Mules\nHappy Hour 3-6PM",
-    "specialTuesday": "Six Dollar Sangrias\nHappy Hour 3-6PM",
-    "specialWednesday": "Four Dollar Drafts\nHappy Hour 3-6PM",
-    "specialThursday": "Six Dollar Wines by the Glass\nHappy Hour 3-6PM",
-    "specialFriday": "Three Dollar Craft Beer Cans\nHappy Hour 3-6PM",
+    "specialMonday": "Six Dollar Mules, Happy Hour 3-6PM",
+    "specialTuesday": "Six Dollar Sangrias, Happy Hour 3-6PM",
+    "specialWednesday": "Four Dollar Drafts, Happy Hour 3-6PM",
+    "specialThursday": "Six Dollar Wines by the Glass, Happy Hour 3-6PM",
+    "specialFriday": "Three Dollar Craft Beer Cans, Happy Hour 3-6PM",
     "specialSaturday": "Four Dollar Infusion Shots",
     "specialSunday": "Bottomless Mimosas & Brunch Cocktails",
-    "Note": "Happy Hour:\nFour Dollar Drafts\nSix Dollar Wines By the Glass\nSix Dollar Mules/Sangrias\nComplimentary Bottomless Tater Tots during Happy Hour with purchase of alcoholic beverage."
+    "Note": "Happy Hour:, Four Dollar Drafts, Six Dollar Wines By the Glass, Six Dollar Mules/Sangrias, Complimentary Bottomless Tater Tots during Happy Hour with purchase of alcoholic beverage.",
+    "lat": 39.1073976,
+    "long": -84.5159119
   },
   {
     "ID": 12,
@@ -278,14 +300,16 @@ export const barList = [
     "hoursFriday": "4PM–2:30AM",
     "hoursSaturday": "12PM–2:30AM",
     "hoursSunday": "Closed",
-    "specialMonday": "8pm – Close\n$5 Shot & Beer Pairing\n4pm – 7pm\n$2 off signature cocktails\n$2 off select drafts\n$2 off calls\n$1 off domestic beers\n$1 off wine\n$3 Budweiser drafts all day",
-    "specialTuesday": "8pm – Close\n$5 Shot & Beer Pairing\n4pm – 7pm\n$2 off signature cocktails\n$2 off select drafts\n$2 off calls\n$1 off domestic beers\n$1 off wine\n$3 Budweiser drafts all day",
-    "specialWednesday": "8pm – Close\n$5 Shot & Beer Pairing\n4pm – 7pm\n$2 off signature cocktails\n$2 off select drafts\n$2 off calls\n$1 off domestic beers\n$1 off wine\n$3 Budweiser drafts all day",
-    "specialThursday": "8pm – Close\n$5 Shot & Beer Pairing\n4pm – 7pm\n$2 off signature cocktails\n$2 off select drafts\n$2 off calls\n$1 off domestic beers\n$1 off wine\n$3 Budweiser drafts all day",
-    "specialFriday": "4pm – 7pm\n$2 off signature cocktails\n$2 off select drafts\n$2 off calls\n$1 off domestic beers\n$1 off wine\n$3 Budweiser drafts all day",
-    "specialSaturday": "$3 Budweiser drafts all day",
-    "specialSunday": "$3 Budweiser drafts all day",
-    "Note": "MUSIC HALL SPECIALS\nShow your Cincinnati Music Hall tickets or program to receive $1 off drafts, $1 off domestics, and $1 off Tito’s vodka"
+    "specialMonday": "SHOT & BEER SPECIAL, MON – THU | 8pm – Close, $5 Shot & Beer Pairing, HAPPY HOUR, MON – FRI | 4pm – 7pm, $2 off signature cocktails, $2 off select drafts, $2 off calls, $1 off domestic beers, $1 off wine, EVERY DAY, $3 Budweiser drafts all day, every day",
+    "specialTuesday": "SHOT & BEER SPECIAL, MON – THU | 8pm – Close, $5 Shot & Beer Pairing, HAPPY HOUR, MON – FRI | 4pm – 7pm, $2 off signature cocktails, $2 off select drafts, $2 off calls, $1 off domestic beers, $1 off wine, EVERY DAY, $3 Budweiser drafts all day, every day",
+    "specialWednesday": "SHOT & BEER SPECIAL, MON – THU | 8pm – Close, $5 Shot & Beer Pairing, HAPPY HOUR, MON – FRI | 4pm – 7pm, $2 off signature cocktails, $2 off select drafts, $2 off calls, $1 off domestic beers, $1 off wine, EVERY DAY, $3 Budweiser drafts all day, every day",
+    "specialThursday": "SHOT & BEER SPECIAL, MON – THU | 8pm – Close, $5 Shot & Beer Pairing, HAPPY HOUR, MON – FRI | 4pm – 7pm, $2 off signature cocktails, $2 off select drafts, $2 off calls, $1 off domestic beers, $1 off wine, EVERY DAY, $3 Budweiser drafts all day, every day",
+    "specialFriday": "HAPPY HOUR, MON – FRI | 4pm – 7pm, $2 off signature cocktails, $2 off select drafts, $2 off calls, $1 off domestic beers, $1 off wine, EVERY DAY, $3 Budweiser drafts all day, every day",
+    "specialSaturday": "EVERY DAY, $3 Budweiser drafts all day, every day",
+    "specialSunday": "EVERY DAY, $3 Budweiser drafts all day, every day",
+    "Note": "MUSIC HALL SPECIALS, Show your Cincinnati Music Hall tickets or program to receive $1 off drafts, $1 off domestics, and $1 off Tito’s vodka",
+    "lat": 39.1103807,
+    "long": -84.5163092
   },
   {
     "ID": 13,
@@ -303,13 +327,15 @@ export const barList = [
     "hoursSaturday": "2PM–2AM",
     "hoursSunday": "2PM–12AM",
     "specialMonday": "",
-    "specialTuesday": "Happy Hour Blue Plate Special $7\n16 oz tall boy beer, scrap sandwich OR liverwurst W/potato chips 4-7PM\nLate Night Pierogies One $2 - Three $5 - Five $8 \n11PM-2AM",
-    "specialWednesday": "Happy Hour Blue Plate Special $7\n16 oz tall boy beer, scrap sandwich OR liverwurst W/potato chips 4-7PM\nLate Night Pierogies One $2 - Three $5 - Five $8 \n11PM-2AM\nHot Plate Curry & Rice $8",
-    "specialThursday": "Happy Hour Blue Plate Special $7\n16 oz tall boy beer, scrap sandwich OR liverwurst W/potato chips 4-7PM\nLate Night Pierogies One $2 - Three $5 - Five $8 \n11PM-2AM\nHot Plate Curry & Rice $8",
-    "specialFriday": "Happy Hour Blue Plate Special $7\n16 oz tall boy beer, scrap sandwich OR liverwurst W/potato chips 4-7PM\nLate Night Pierogies One $2 - Three $5 - Five $8 \n11PM-2AM",
-    "specialSaturday": "Late Night Pierogies One $2 - Three $5 - Five $8 \n11PM-2AM",
-    "specialSunday": "Late Night Pierogies One $2 - Three $5 - Five $8 \nAll Day",
-    "Note": ""
+    "specialTuesday": "Happy Hour Blue Plate Special $7, 16 oz tall boy beer, scrap sandwich OR liverwurst W/potato chips 4-7PM, Late Night Pierogies One $2 - Three $5 - Five $8 , 11PM-2AM",
+    "specialWednesday": "Happy Hour Blue Plate Special $7, 16 oz tall boy beer, scrap sandwich OR liverwurst W/potato chips 4-7PM, Late Night Pierogies One $2 - Three $5 - Five $8 , 11PM-2AM, Hot Plate Curry & Rice $8",
+    "specialThursday": "Happy Hour Blue Plate Special $7, 16 oz tall boy beer, scrap sandwich OR liverwurst W/potato chips 4-7PM, Late Night Pierogies One $2 - Three $5 - Five $8 , 11PM-2AM, Hot Plate Curry & Rice $8",
+    "specialFriday": "Happy Hour Blue Plate Special $7, 16 oz tall boy beer, scrap sandwich OR liverwurst W/potato chips 4-7PM, Late Night Pierogies One $2 - Three $5 - Five $8 , 11PM-2AM",
+    "specialSaturday": "Late Night Pierogies One $2 - Three $5 - Five $8 , 11PM-2AM",
+    "specialSunday": "Late Night Pierogies One $2 - Three $5 - Five $8 , All Day",
+    "Note": "",
+    "lat": 39.1096956,
+    "long": -84.5127973
   },
   {
     "ID": 14,
@@ -333,7 +359,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1078318,
+    "long": -84.519097
   },
   {
     "ID": 15,
@@ -357,7 +385,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1083636153846,
+    "long": -84.5130170769231
   },
   {
     "ID": 16,
@@ -381,7 +411,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.10859605,
+    "long": -84.5152225113226
   },
   {
     "ID": 17,
@@ -405,7 +437,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1092069,
+    "long": -84.5104021
   },
   {
     "ID": 18,
@@ -429,7 +463,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.11047,
+    "long": -84.516829
   },
   {
     "ID": 19,
@@ -446,14 +482,16 @@ export const barList = [
     "hoursFriday": "11:30AM–2:30PM,4:30–11PM",
     "hoursSaturday": "11:30AM–2:30PM,4:30–11PM",
     "hoursSunday": "Closed",
-    "specialMonday": "5 – 7 p.m.\n$1.50 OYSTERS – SHUCKER’S CHOICE\n$1 OFF ALL BEERS + $7 RED, WHITE AND ROSÉ WINES",
-    "specialTuesday": "5 – 7 p.m.\n$1.50 OYSTERS – SHUCKER’S CHOICE\n$1 OFF ALL BEERS + $7 RED, WHITE AND ROSÉ WINES",
-    "specialWednesday": "5 – 7 p.m.\n$1.50 OYSTERS – SHUCKER’S CHOICE\n$1 OFF ALL BEERS + $7 RED, WHITE AND ROSÉ WINES",
-    "specialThursday": "5 – 7 p.m.\n$1.50 OYSTERS – SHUCKER’S CHOICE\n$1 OFF ALL BEERS + $7 RED, WHITE AND ROSÉ WINES",
-    "specialFriday": "5 – 7 p.m.\n$1.50 OYSTERS – SHUCKER’S CHOICE\n$1 OFF ALL BEERS + $7 RED, WHITE AND ROSÉ WINES\nFish Fry Fridays!! 4:30 -9:00\n2 for 1 Draft Beer\n$2 Oysters Raw or Oven Roasted\n$6  Rum Daiquiris\n$12 baskets of Fish & Chios",
+    "specialMonday": "HAPPY HOUR, weeknights from 5 – 7 p.m., $1.50 OYSTERS – SHUCKER’S CHOICE, $1 OFF ALL BEERS + $7 RED, WHITE AND ROSÉ WINESHAPPY HOUR, weeknights from 5 – 7 p.m., $1.50 OYSTERS – SHUCKER’S CHOICE, $1 OFF ALL BEERS + $7 RED, WHITE AND ROSÉ WINES",
+    "specialTuesday": "HAPPY HOUR, weeknights from 5 – 7 p.m., $1.50 OYSTERS – SHUCKER’S CHOICE, $1 OFF ALL BEERS + $7 RED, WHITE AND ROSÉ WINESHAPPY HOUR",
+    "specialWednesday": "HAPPY HOUR, weeknights from 5 – 7 p.m., $1.50 OYSTERS – SHUCKER’S CHOICE, $1 OFF ALL BEERS + $7 RED, WHITE AND ROSÉ WINESHAPPY HOUR, weeknights from 5 – 7 p.m., $1.50 OYSTERS – SHUCKER’S CHOICE, $1 OFF ALL BEERS + $7 RED, WHITE AND ROSÉ WINES",
+    "specialThursday": "HAPPY HOUR, weeknights from 5 – 7 p.m., $1.50 OYSTERS – SHUCKER’S CHOICE, $1 OFF ALL BEERS + $7 RED, WHITE AND ROSÉ WINESHAPPY HOUR, weeknights from 5 – 7 p.m., $1.50 OYSTERS – SHUCKER’S CHOICE, $1 OFF ALL BEERS + $7 RED, WHITE AND ROSÉ WINES",
+    "specialFriday": "HAPPY HOUR, weeknights from 5 – 7 p.m., $1.50 OYSTERS – SHUCKER’S CHOICE, $1 OFF ALL BEERS + $7 RED, WHITE AND ROSÉ WINES, Fish Fry Fridays!! 4:30 -9:00, 2 for 1 Draft Beer, $2 Oysters Raw or Oven Roasted, $6  Rum Daiquiris, $12 baskets of Fish & ChiosHAPPY HOUR, weeknights from 5 – 7 p.m., $1.50 OYSTERS – SHUCKER’S CHOICE, $1 OFF ALL BEERS + $7 RED, WHITE AND ROSÉ WINES, Fish Fry Fridays!! 4:30 -9:00, 2 for 1 Draft Beer, $2 Oysters Raw or Oven Roasted, $6  Rum Daiquiris, $12 baskets of Fish & Chios",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1104288,
+    "long": -84.5171923
   },
   {
     "ID": 20,
@@ -477,7 +515,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1090279,
+    "long": -84.5148005
   },
   {
     "ID": 21,
@@ -501,7 +541,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1097757,
+    "long": -84.508276
   },
   {
     "ID": 22,
@@ -525,7 +567,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1091052,
+    "long": -84.5114524
   },
   {
     "ID": 23,
@@ -549,7 +593,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1087911,
+    "long": -84.5147421
   },
   {
     "ID": 24,
@@ -573,7 +619,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.110617,
+    "long": -84.512122
   },
   {
     "ID": 25,
@@ -590,18 +638,20 @@ export const barList = [
     "hoursFriday": "4PM–2AM",
     "hoursSaturday": "4PM–2AM",
     "hoursSunday": "Closed",
-    "specialMonday": "HAPPY HOUR 4P-8P\n$4 CALLS, $3 DOMESTICS, $2 OFF DRAFTS, $5 GLASSES OF SPANISH WINE\nMonday: “Manhattan Mondays”\n$5 Bulleit Manhattans*",
-    "specialTuesday": "HAPPY HOUR 4P-8P\n$4 CALLS, $3 DOMESTICS, $2 OFF DRAFTS, $5 GLASSES OF SPANISH WINEHAPPY HOUR 4P-8P\n$4 CALLS, $3 DOMESTICS, $2 OFF DRAFTS, $5 GLASSES OF SPANISH WINE",
-    "specialWednesday": "HAPPY HOUR 4P-8P\n$4 CALLS, $3 DOMESTICS, $2 OFF DRAFTS, $5 GLASSES OF SPANISH WINE\nWednesday: “Wine Down Wednesdays”\n$15 Polus & Maques De Reinosa Bottles",
-    "specialThursday": "HAPPY HOUR 4P-8P\n$4 CALLS, $3 DOMESTICS, $2 OFF DRAFTS, $5 GLASSES OF SPANISH WINE\nThursday: “Thirsty Thursdays”\n$4 Craft Cans\n$4 Jameson*",
-    "specialFriday": "HAPPY HOUR 4P-8P\n$4 CALLS, $3 DOMESTICS, $2 OFF DRAFTS, $5 GLASSES OF SPANISH WINE",
-    "specialSaturday": "HAPPY HOUR 4P-8P\n$4 CALLS, $3 DOMESTICS, $2 OFF DRAFTS, $5 GLASSES OF SPANISH WINE",
+    "specialMonday": "HAPPY HOUR 4P-8P, $4 CALLS, $3 DOMESTICS, $2 OFF DRAFTS, $5 GLASSES OF SPANISH WINE, Monday: “Manhattan Mondays”, $5 Bulleit Manhattans",
+    "specialTuesday": "HAPPY HOUR 4P-8P, $4 CALLS, $3 DOMESTICS, $2 OFF DRAFTS, $5 GLASSES OF SPANISH WINE",
+    "specialWednesday": "HAPPY HOUR 4P-8P, $4 CALLS, $3 DOMESTICS, $2 OFF DRAFTS, $5 GLASSES OF SPANISH WINE, Wednesday: “Wine Down Wednesdays”, $15 Polus & Maques De Reinosa BottlesHAPPY HOUR 4P-8P, $4 CALLS, $3 DOMESTICS, $2 OFF DRAFTS, $5 GLASSES OF SPANISH WINE, Wednesday: “Wine Down Wednesdays”, $15 Polus & Maques De Reinosa Bottles",
+    "specialThursday": "HAPPY HOUR 4P-8P, $4 CALLS, $3 DOMESTICS, $2 OFF DRAFTS, $5 GLASSES OF SPANISH WINE, Thursday: “Thirsty Thursdays”, $4 Craft Cans, $4 Jameson*HAPPY HOUR 4P-8P, $4 CALLS, $3 DOMESTICS, $2 OFF DRAFTS, $5 GLASSES OF SPANISH WINE, Thursday: “Thirsty Thursdays”, $4 Craft Cans, $4 Jameson*",
+    "specialFriday": "HAPPY HOUR 4P-8P, $4 CALLS, $3 DOMESTICS, $2 OFF DRAFTS, $5 GLASSES OF SPANISH WINEHAPPY HOUR 4P-8P, $4 CALLS, $3 DOMESTICS, $2 OFF DRAFTS, $5 GLASSES OF SPANISH WINE",
+    "specialSaturday": "HAPPY HOUR 4P-8P, $4 CALLS, $3 DOMESTICS, $2 OFF DRAFTS, $5 GLASSES OF SPANISH WINEHAPPY HOUR 4P-8P, $4 CALLS, $3 DOMESTICS, $2 OFF DRAFTS, $5 GLASSES OF SPANISH WINE",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1079009,
+    "long": -84.518178
   },
   {
     "ID": 26,
-    "Bar": "Wiseguy Lounge ",
+    "Bar": "Wiseguy Lounge",
     "Description": "",
     "Neighborhood": "Over-the-Rhine",
     "Address": "1211 Main St, Cincinnati, OH 45202",
@@ -621,7 +671,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1091302,
+    "long": -84.5118141
   },
   {
     "ID": 27,
@@ -640,12 +692,14 @@ export const barList = [
     "hoursSunday": "Closed",
     "specialMonday": "",
     "specialTuesday": "",
-    "specialWednesday": "Happy Hour 4-7 PM\n$5 - Wine, Beer, Wine Cocktails, Olives and Cheese, Bread & OilHappy Hour 4-7 PM\n$5 - Wine, Beer, Wine Cocktails, Olives and Cheese, Bread & Oil",
-    "specialThursday": "Happy Hour 4-7 PM\n$5 - Wine, Beer, Wine Cocktails, Olives and Cheese, Bread & OilHappy Hour 4-7 PM\n$5 - Wine, Beer, Wine Cocktails, Olives and Cheese, Bread & Oil",
-    "specialFriday": "Happy Hour 4-7 PM\n$5 - Wine, Beer, Wine Cocktails, Olives and Cheese, Bread & OilHappy Hour 4-7 PM\n$5 - Wine, Beer, Wine Cocktails, Olives and Cheese, Bread & Oil",
+    "specialWednesday": "Happy Hour 4-7 PM, $5 - Wine, Beer, Wine Cocktails, Olives and Cheese, Bread & OilHappy Hour 4-7 PM, $5 - Wine, Beer, Wine Cocktails, Olives and Cheese, Bread & Oil",
+    "specialThursday": "Happy Hour 4-7 PM, $5 - Wine, Beer, Wine Cocktails, Olives and Cheese, Bread & OilHappy Hour 4-7 PM, $5 - Wine, Beer, Wine Cocktails, Olives and Cheese, Bread & Oil",
+    "specialFriday": "Happy Hour 4-7 PM, $5 - Wine, Beer, Wine Cocktails, Olives and Cheese, Bread & OilHappy Hour 4-7 PM, $5 - Wine, Beer, Wine Cocktails, Olives and Cheese, Bread & Oil",
     "specialSaturday": "",
-    "specialSunday": "Sangria Sunday 12-10PM\n$7 Red & White Wine Sangrias, Traditional Mimosas, Draft Beers, $5 Limoncello Crema, $4 Limoncello Classic",
-    "Note": ""
+    "specialSunday": "Sangria Sunday 12-10PM, $7 Red & White Wine Sangrias, Traditional Mimosas, Draft Beers, $5 Limoncello Crema, $4 Limoncello ClassicSangria Sunday 12-10PM, $7 Red & White Wine Sangrias, Traditional Mimosas, Draft Beers, $5 Limoncello Crema, $4 Limoncello Classic",
+    "Note": "",
+    "lat": 39.1085275,
+    "long": -84.5126641
   },
   {
     "ID": 28,
@@ -662,14 +716,16 @@ export const barList = [
     "hoursFriday": "4–11PM",
     "hoursSaturday": "12–11PM",
     "hoursSunday": "12–9PM",
-    "specialMonday": "HAPPY HOUR  DAILY - 4-7PM\n   • Specialty cocktails are $5\n   • Discounted select sushi rolls\n   • Ramen is only $4.50",
-    "specialTuesday": "HAPPY HOUR  DAILY - 4-7PM\n   • Specialty cocktails are $5\n   • Discounted select sushi rolls\n   • Ramen is only $4.50",
-    "specialWednesday": "HAPPY HOUR  DAILY - 4-7PM\n   • Specialty cocktails are $5\n   • Discounted select sushi rolls\n   • Ramen is only $4.50",
-    "specialThursday": "HAPPY HOUR  DAILY - 4-7PM\n   • Specialty cocktails are $5\n   • Discounted select sushi rolls\n   • Ramen is only $4.50",
-    "specialFriday": "HAPPY HOUR  DAILY - 4-7PM\n   • Specialty cocktails are $5\n   • Discounted select sushi rolls\n   • Ramen is only $4.50",
-    "specialSaturday": "HAPPY HOUR  DAILY - 4-6PM\n   • Specialty cocktails are $5\n   • Discounted select sushi rolls\n   • Ramen is only $4.50",
-    "specialSunday": "HAPPY HOUR  DAILY - 4-6PM\n   • Specialty cocktails are $5\n   • Discounted select sushi rolls\n   • Ramen is only $4.50",
-    "Note": ""
+    "specialMonday": "HAPPY HOUR  DAILY - 4-7PM,    • Specialty cocktails are $5,    • Discounted select sushi rolls,    • Ramen is only $4.5",
+    "specialTuesday": "HAPPY HOUR  DAILY - 4-7PM, Specialty cocktails are $5, Discounted select sushi rolls, Ramen is only $4.50",
+    "specialWednesday": "HAPPY HOUR  DAILY - 4-7PM,    • Specialty cocktails are $5,    • Discounted select sushi rolls,    • Ramen is only $4.5",
+    "specialThursday": "HAPPY HOUR  DAILY - 4-7PM,    • Specialty cocktails are $5,    • Discounted select sushi rolls,    • Ramen is only $4.5",
+    "specialFriday": "HAPPY HOUR  DAILY - 4-7PM,    • Specialty cocktails are $5,    • Discounted select sushi rolls,    • Ramen is only $4.5",
+    "specialSaturday": "HAPPY HOUR  DAILY - 4-6PM,    • Specialty cocktails are $5,    • Discounted select sushi rolls,    • Ramen is only $4.5",
+    "specialSunday": "HAPPY HOUR  DAILY - 4-6PM,    • Specialty cocktails are $5,    • Discounted select sushi rolls,    • Ramen is only $4.5",
+    "Note": "",
+    "lat": 39.1110442,
+    "long": -84.5152882
   },
   {
     "ID": 29,
@@ -686,14 +742,16 @@ export const barList = [
     "hoursFriday": "11AM–2:30AM",
     "hoursSaturday": "11AM–2:30AM",
     "hoursSunday": "11AM–12AM",
-    "specialMonday": "Malbec Mondays\nCome enjoy any of our Malbecs by the glass for only $5 all day long.",
-    "specialTuesday": "Service Industry Night\nOur friends in the Service Industry enjoy 30% off drinks all night long!\n$3 Jack Daniels\nWhen:\nEvery Tuesday from 7pm - Close.",
-    "specialWednesday": "Whiskey Wednesday $3\nGet over Hump Day by joining us for $3 shots of Jameson all evening long.",
-    "specialThursday": "Thirsty Thursday $4 Drafts\nBeer aficionados unite! Thursday at Ché means it's time for $4 drafts on any of our 20 beers on tap!",
-    "specialFriday": "Fireball Friday\nReady to start your weekends with a bang? Pop by and join us for $3 shots of Fireball 'till the wheels fall off!",
-    "specialSaturday": "Weekend Brunch\n Come check in OTR's best kept secret! 10 exclusive menu items,\n\n$4 Mimosas, and $5 Bloody Marys.\nWhen:\nSaturdays and Sundays from  11am to 3pm.",
-    "specialSunday": "Weekend Brunch\n Come check in OTR's best kept secret! 10 exclusive menu items,\n\n$4 Mimosas, and $5 Bloody Marys.\nWhen:\nSaturdays and Sundays from  11am to 3pm.",
-    "Note": ""
+    "specialMonday": "Malbec Mondays, Come enjoy any of our Malbecs by the glass for only $5 all day long.",
+    "specialTuesday": ", Service Industry Night, Our friends in the Service Industry enjoy 30% off drinks all night long!, $3 Jack Daniels,",
+    "specialWednesday": "Whiskey Wednesday $3, Get over Hump Day by joining us for $3 shots of Jameson all evening long.Whiskey Wednesday $3, Get over Hump Day by joining us for $3 shots of Jameson all evening long.",
+    "specialThursday": "Thirsty Thursday$4 Drafts, Beer aficionados unite! Thursday at Ché means it's time for $4 drafts on any of our 20 beers on tap!Thirsty Thursday$4 Drafts, Beer aficionados unite! Thursday at Ché means it's time for $4 drafts on any of our 20 beers on tap!",
+    "specialFriday": "Fireball Friday, Ready to start your weekends with a bang? Pop by and joinus for $3 shots of Fireball 'till the wheels fall off!Fireball Friday, Ready to start your weekends with a bang? Pop by and joinus for $3 shots of Fireball 'till the wheels fall off!",
+    "specialSaturday": "Weekend Brunch,  Come check in OTR's best kept secret! 10 exclusive menu items,, , $4 Mimosas, and $5 Bloody Marys., When:, Saturdays and Sundays from  11am to 3pm.Weekend Brunch,  Come check in OTR's best kept secret! 10 exclusive menu items,, , $4 Mimosas, and $5 Bloody Marys., When:, Saturdays and Sundays from  11am to 3pm.",
+    "specialSunday": "Weekend Brunch,  Come check in OTR's best kept secret! 10 exclusive menu items,, , $4 Mimosas, and $5 Bloody Marys., When:, Saturdays and Sundays from  11am to 3pm.Weekend Brunch,  Come check in OTR's best kept secret! 10 exclusive menu items,, , $4 Mimosas, and $5 Bloody Marys., When:, Saturdays and Sundays from  11am to 3pm.",
+    "Note": "",
+    "lat": 39.1108982,
+    "long": -84.5135673
   },
   {
     "ID": 30,
@@ -717,7 +775,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1089554444444,
+    "long": -84.51171
   },
   {
     "ID": 31,
@@ -741,7 +801,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1110911428571,
+    "long": -84.5153729591837
   },
   {
     "ID": 32,
@@ -759,13 +821,15 @@ export const barList = [
     "hoursSaturday": "5–11PM",
     "hoursSunday": "4:30–8:30PM",
     "specialMonday": "",
-    "specialTuesday": "Tuesday-Half Price Wine\nBottles of wine up through $74 are 50% off. Wines $75 and up\nand wines in half bottles are 25% off.",
-    "specialWednesday": "Tuesday-Half Price Wine\nBottles of wine up through $74 are 50% off. Wines $75 and up\nand wines in half bottles are 25% off.",
-    "specialThursday": "Thursday Bar Burger Night\n$10 Burger & Fries, $2 High Life cans, and $2 Coors drafts.\n**This promotion is only available in the bar, lounge, and patio**",
-    "specialFriday": "Friday-Half Price Wine\nBottles of wine up through $74 are 50% off. Wines $75 and up\nand wines in half bottles are 25% off.",
+    "specialTuesday": "Tuesday-Half Price Wine, Bottles of wine up through $74 are 50% off. Wines $75 and up, and wines in half bottles are 25% off.",
+    "specialWednesday": "Tuesday-Half Price Wine, Bottles of wine up through $74 are 50% off. Wines $75 and up, and wines in half bottles are 25% off.",
+    "specialThursday": "Thursday Bar Burger Night, $10 Burger & Fries, $2 High Life cans, and $2 Coors drafts., **This promotion is only available in the bar, lounge, and patio**",
+    "specialFriday": "Friday-Half Price Wine, Bottles of wine up through $74 are 50% off. Wines $75 and up, and wines in half bottles are 25% off.",
     "specialSaturday": "",
-    "specialSunday": "Sunday Funday $5 All Night Happy Hour\nAll night in the bar, lounge, and patio you can enjoy $5 select\ncocktails, wines by the glass, and beer specials.",
-    "Note": ""
+    "specialSunday": "Sunday Funday $5 All Night Happy Hour, All night in the bar, lounge, and patio you can enjoy $5 select, cocktails, wines by the glass, and beer specials.",
+    "Note": "",
+    "lat": 39.1101752,
+    "long": -84.5150813
   },
   {
     "ID": 33,
@@ -789,7 +853,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1107045,
+    "long": -84.5155743
   },
   {
     "ID": 34,
@@ -813,7 +879,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1120257,
+    "long": -84.5121277620096
   },
   {
     "ID": 35,
@@ -837,7 +905,9 @@ export const barList = [
     "specialFriday": "Happy Hour runs Wednesday through Friday 5:30-7:30 with cocktail, wine glass & bottle specials.",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1113753,
+    "long": -84.5131298
   },
   {
     "ID": 36,
@@ -861,7 +931,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1111356,
+    "long": -84.5119275
   },
   {
     "ID": 37,
@@ -878,14 +950,16 @@ export const barList = [
     "hoursFriday": "4PM–2:30AM",
     "hoursSaturday": "4PM–2:30AM",
     "hoursSunday": "8PM–2:30AM",
-    "specialMonday": "Open – Close\n$5 Rosé (Apothic or Bellarouche)\n$5 Shots of our Infused Liquor of Month\n4-8pm\n1/2 Off All Drinks\n8pm – Close\n$5 Moscow Mules\n$5 Paris to Moscows",
-    "specialTuesday": "Open – Close\n$5 Rosé (Apothic or Bellarouche)\n$5 Shots of our Infused Liquor of Month\n4-8pm\n1/2 Off All Drinks\n8pm – Close\n$3 Local Canned Beers\n$3 Shots of Jameson",
-    "specialWednesday": "Open – Close\n$5 Rosé (Apothic or Bellarouche)\n$5 Shots of our Infused Liquor of Month\n4-8pm\n1/2 Off All Drinks\n8pm – Close\nHalf-price glasses of wine\nHalf-price bottles of wine",
-    "specialThursday": "Open – Close\n$5 Rosé (Apothic or Bellarouche)\n$5 Shots of our Infused Liquor of Month\n4-8pm\n1/2 Off All Drinks\n8pm – Close\n$6 Don Julio Blanco\n$7 Don Julio Reposado\n$8 Don Julio Añejo\n$15 Don Julio 1942",
-    "specialFriday": "Open – Close\n$5 Rosé (Apothic or Bellarouche)\n$5 Shots of our Infused Liquor of Month\n4-8pm\n1/2 Off All Drinks",
-    "specialSaturday": "Open – Close\n$5 Rosé (Apothic or Bellarouche)\n$5 Shots of our Infused Liquor of Month\n4-8pm\n1/2 Off All Drinks",
-    "specialSunday": "Open – Close\n$5 Rosé (Apothic or Bellarouche)\n$5 Shots of our Infused Liquor of Month\nSUNDAY\n8pm – Close\nReverse Happy Hour\nHalf-price drinks",
-    "Note": ""
+    "specialMonday": "EVERY DAY, Open – Close, $5 Rosé (Apothic or Bellarouche), $5 Shots of our Infused Liquor of Month, HAPPY HOUR, Monday – Saturday | 4-8pm, 1/2 Off All Drinks, MONDAY, 8pm – Close, $5 Moscow Mules, $5 Paris to Moscows",
+    "specialTuesday": "EVERY DAY, Open – Close, $5 Rosé (Apothic or Bellarouche), $5 Shots of our Infused Liquor of Month, HAPPY HOUR, Monday – Saturday | 4-8pm, 1/2 Off All Drinks, TUESDAY, 8pm – Close, $3 Local Canned Beers, $3 Shots of Jameson",
+    "specialWednesday": "EVERY DAY, Open – Close, $5 Rosé (Apothic or Bellarouche), $5 Shots of our Infused Liquor of Month, HAPPY HOUR, Monday – Saturday | 4-8pm, 1/2 Off All Drinks, WEDNESDAY, 8pm – Close, Half-price glasses of wine, Half-price bottles of wine",
+    "specialThursday": "EVERY DAY, Open – Close, $5 Rosé (Apothic or Bellarouche), $5 Shots of our Infused Liquor of Month, HAPPY HOUR, Monday – Saturday | 4-8pm, 1/2 Off All Drinks, THURSDAY, 8pm – Close, $6 Don Julio Blanco, $7 Don Julio Reposado, $8 Don Julio Añejo, $15 Don Julio 1942",
+    "specialFriday": "EVERY DAY, Open – Close, $5 Rosé (Apothic or Bellarouche), $5 Shots of our Infused Liquor of Month, HAPPY HOUR, Monday – Saturday | 4-8pm, 1/2 Off All Drinks",
+    "specialSaturday": "EVERY DAY, Open – Close, $5 Rosé (Apothic or Bellarouche), $5 Shots of our Infused Liquor of Month, HAPPY HOUR, Monday – Saturday | 4-8pm, 1/2 Off All Drinks",
+    "specialSunday": "EVERY DAY, Open – Close, $5 Rosé (Apothic or Bellarouche), $5 Shots of our Infused Liquor of Month, SUNDAY, 8pm – Close, Reverse Happy Hour, Half-price drinks",
+    "Note": "",
+    "lat": 39.1035073421053,
+    "long": -84.5120170263158
   },
   {
     "ID": 38,
@@ -902,14 +976,16 @@ export const barList = [
     "hoursFriday": "4PM–2AM",
     "hoursSaturday": "4PM–2AM",
     "hoursSunday": "4PM–12:30AM",
-    "specialMonday": "Monday – Friday: 4pm – 7pm\nHalf Price Drinks (excluding house cocktails and bottles of wine)",
-    "specialTuesday": "Monday – Friday: 4pm – 7pm\nHalf Price Drinks (excluding house cocktails and bottles of wine)",
-    "specialWednesday": "Monday – Friday: 4pm – 7pm\nHalf Price Drinks (excluding house cocktails and bottles of wine)",
-    "specialThursday": "Monday – Friday: 4pm – 7pm\nHalf Price Drinks (excluding house cocktails and bottles of wine)",
-    "specialFriday": "Monday – Friday: 4pm – 7pm\nHalf Price Drinks (excluding house cocktails and bottles of wine)",
+    "specialMonday": "Monday – Friday: 4pm – 7pm, Half Price Drinks (excluding house cocktails and bottles of wine)",
+    "specialTuesday": "Monday – Friday: 4pm – 7pm, Half Price Drinks (excluding house cocktails and bottles of wine)",
+    "specialWednesday": "Monday – Friday: 4pm – 7pm, Half Price Drinks (excluding house cocktails and bottles of wine)",
+    "specialThursday": "Monday – Friday: 4pm – 7pm, Half Price Drinks (excluding house cocktails and bottles of wine)",
+    "specialFriday": "Monday – Friday: 4pm – 7pm, Half Price Drinks (excluding house cocktails and bottles of wine)",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.109344,
+    "long": -84.511072
   },
   {
     "ID": 39,
@@ -933,7 +1009,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.11334,
+    "long": -84.509693
   },
   {
     "ID": 40,
@@ -957,7 +1035,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.106282,
+    "long": -84.5153191
   },
   {
     "ID": 41,
@@ -981,7 +1061,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1132835,
+    "long": -84.5175945
   },
   {
     "ID": 42,
@@ -1000,12 +1082,14 @@ export const barList = [
     "hoursSunday": "Closed",
     "specialMonday": "",
     "specialTuesday": "",
-    "specialWednesday": "HAPPY HOUR\nWed – Fri, 6pm – 8pm\n$2.50 Domestics*\n$3 Imports*\n$5 Margaritas (frozen or rocks)\nWEDNESDAY\n6pm – 9pm\nExtended Happy Hour\n\n10pm – Close (Employee Discount Night)\n$2 off all drinks!",
-    "specialThursday": "HAPPY HOUR\nWed – Fri, 6pm – 8pm\n$2.50 Domestics*\n$3 Imports*\n$5 Margaritas (frozen or rocks)\nTHURSDAY\nAfter 9pm\n$2 Bud Light Aluminum Bottles\n$3 Margaritas\n$4 Long Islands\n$4 Fireball Whisky",
-    "specialFriday": "HAPPY HOUR\nWed – Fri, 6pm – 8pm\n$2.50 Domestics*\n$3 Imports*\n$5 Margaritas (frozen or rocks)",
+    "specialWednesday": "HAPPY HOUR, Wed – Fri, 6pm – 8pm, $2.50 Domestics*, $3 Imports*, $5 Margaritas (frozen or rocks), WEDNESDAY, 6pm – 9pm, Extended Happy Hour, , 10pm – Close (Employee Discount Night), $2 off all drinks!",
+    "specialThursday": "HAPPY HOUR, Wed – Fri, 6pm – 8pm, $2.50 Domestics*, $3 Imports*, $5 Margaritas (frozen or rocks), THURSDAY, After 9pm, $2 Bud Light Aluminum Bottles, $3 Margaritas, $4 Long Islands, $4 Fireball Whisky",
+    "specialFriday": "HAPPY HOUR, Wed – Fri, 6pm – 8pm, $2.50 Domestics*, $3 Imports*, $5 Margaritas (frozen or rocks)",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1075596666667,
+    "long": -84.4971821111111
   },
   {
     "ID": 43,
@@ -1029,7 +1113,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1101737,
+    "long": -84.5192065
   },
   {
     "ID": 44,
@@ -1053,7 +1139,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1018325,
+    "long": -84.5151463
   },
   {
     "ID": 45,
@@ -1077,7 +1165,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.10939695,
+    "long": -84.5110322267084
   },
   {
     "ID": 46,
@@ -1094,14 +1184,16 @@ export const barList = [
     "hoursFriday": "4PM–12AM",
     "hoursSaturday": "4PM–12AM",
     "hoursSunday": "Closed",
-    "specialMonday": "$5 Drafts\n$5 Select Calls\n$5 Glasses of Dark Horse Wine 8pm – Close\nHalf-price all wine & $15 charcuterie board\n*Rare exclusions apply",
-    "specialTuesday": "$5 Drafts\n$5 Select Calls\n$5 Glasses of Dark Horse Wine 8pm – Close\n$3 off all craft cocktails",
-    "specialWednesday": "$5 Drafts\n$5 Select Calls\n$5 Glasses of Dark Horse Wine 8pm – Close\n$3 beers (drafts, bottles, & cans) & $3 wells\n*Rare exclusions apply",
-    "specialThursday": "$5 Drafts\n$5 Select Calls\n$5 Glasses of Dark Horse Wine 8pm – Close\n$3 off all tequila & “Kill the Keg”\nFinish off the last of our designated keg and receive a $25 gift card!",
-    "specialFriday": "$5 Drafts\n$5 Select Calls\n$5 Glasses of Dark Horse Wine 8pm – Close\n$100 bottle service bottles\n(Tito’s Handmade Vodka, El Jimador Tequila, Tanqueray Gin, Old Forester Whiskey, & Captain Morgan White Rum)",
+    "specialMonday": "HAPPY HOUR, Monday – Friday 4pm – 8pm, Saturday 4pm – 6pm, $5 Drafts, $5 Select Calls, $5 Glasses of Dark Horse Wine, MONDAY, 8pm – Close, Half-price all wine & $15 charcuterie board, *Rare exclusions apply",
+    "specialTuesday": "HAPPY HOUR, Monday – Friday 4pm – 8pm, Saturday 4pm – 6pm, $5 Drafts, $5 Select Calls, $5 Glasses of Dark Horse Wine, TUESDAY, 8pm – Close, $3 off all craft cocktails",
+    "specialWednesday": "HAPPY HOUR, Monday – Friday 4pm – 8pm, Saturday 4pm – 6pm, $5 Drafts, $5 Select Calls, $5 Glasses of Dark Horse Wine, WEDNESDAY, 8pm – Close, $3 beers (drafts, bottles, & cans) & $3 wells, *Rare exclusions apply",
+    "specialThursday": "HAPPY HOUR, Monday – Friday 4pm – 8pm, Saturday 4pm – 6pm, $5 Drafts, $5 Select Calls, $5 Glasses of Dark Horse Wine, THURSDAY, 8pm – Close, $3 off all tequila & “Kill the Keg”, Finish off the last of our designated keg and receive a $25 gift card!",
+    "specialFriday": "HAPPY HOUR, Monday – Friday 4pm – 8pm, Saturday 4pm – 6pm, $5 Drafts, $5 Select Calls, $5 Glasses of Dark Horse Wine, FRIDAY, 8pm – Close, $100 bottle service bottles, (Tito’s Handmade Vodka, El Jimador Tequila, Tanqueray Gin, Old Forester Whiskey, & Captain Morgan White Rum)",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1028889633675,
+    "long": -84.5109204945222
   },
   {
     "ID": 47,
@@ -1125,7 +1217,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.105299,
+    "long": -84.5156075714286
   },
   {
     "ID": 48,
@@ -1149,7 +1243,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1038396,
+    "long": -84.5141989
   },
   {
     "ID": 49,
@@ -1173,7 +1269,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1031773,
+    "long": -84.5120802
   },
   {
     "ID": 50,
@@ -1197,7 +1295,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1039354,
+    "long": -84.5100858
   },
   {
     "ID": 51,
@@ -1221,7 +1321,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1031016,
+    "long": -84.5120392
   },
   {
     "ID": 52,
@@ -1245,7 +1347,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.109372,
+    "long": -84.497458
   },
   {
     "ID": 53,
@@ -1269,7 +1373,9 @@ export const barList = [
     "specialFriday": "Half Price Happy Hour 4-8PM",
     "specialSaturday": "Half Price Happy Hour 4-8PM",
     "specialSunday": "Half Price Happy Hour 4-8PM",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1034877105263,
+    "long": -84.5120121315789
   },
   {
     "ID": 54,
@@ -1293,7 +1399,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1020465,
+    "long": -84.5150943
   },
   {
     "ID": 55,
@@ -1317,7 +1425,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.102544,
+    "long": -84.513429
   },
   {
     "ID": 56,
@@ -1341,7 +1451,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1025707727273,
+    "long": -84.5019645
   },
   {
     "ID": 57,
@@ -1359,13 +1471,15 @@ export const barList = [
     "hoursSaturday": "4PM–2:30AM",
     "hoursSunday": "4PM–12AM",
     "specialMonday": "",
-    "specialTuesday": "Tues – Thurs\n4PM – 6PM\nFriday\n3PM – 6PM\nHalf-price drinks\n(excluding wine)",
-    "specialWednesday": "Tues – Thurs\n4PM – 6PM\nFriday\n3PM – 6PM\nHalf-price drinks\n(excluding wine)",
-    "specialThursday": "Tues – Thurs\n4PM – 6PM\nFriday\n3PM – 6PM\nHalf-price drinks\n(excluding wine)\nDecked Out\nEvery Thursday\n$2 off drafts\n$5 bombs\nCard games available",
-    "specialFriday": "Every Sunday\n7PM – 9PM\nDog-friendly yappy hour. Half-price drinks and dog treats / swag available while supplies last.",
+    "specialTuesday": "Tues – Thurs, 4PM – 6PM, Friday, 3PM – 6PM, Half-price drinks, (excluding wine)",
+    "specialWednesday": "Tues – Thurs, 4PM – 6PM, Friday, 3PM – 6PM, Half-price drinks, (excluding wine)",
+    "specialThursday": "Tues – Thurs, 4PM – 6PM, Friday, 3PM – 6PM, Half-price drinks, (excluding wine), Decked Out, Every Thursday, $2 off drafts, $5 bombs, Card games available",
+    "specialFriday": "Every Sunday, 7PM – 9PM, Dog-friendly yappy hour. Half-price drinks and dog treats / swag available while supplies last.",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1075645555556,
+    "long": -84.4972489259259
   },
   {
     "ID": 58,
@@ -1389,7 +1503,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": " All UC and Xavier televised basketball games 5 for $10 domestic buckets"
+    "Note": "All UC and Xavier televised basketball games 5 for $10 domestic buckets",
+    "lat": 39.0975783,
+    "long": -84.5090142
   },
   {
     "ID": 59,
@@ -1406,14 +1522,16 @@ export const barList = [
     "hoursFriday": "3PM–2:30AM",
     "hoursSaturday": "3PM–2:30AM",
     "hoursSunday": "3PM–2:30AM",
-    "specialMonday": "Happy Hour\n(Monday – Friday from 3pm – 7pm)\n1/2 off all drafts (includes beer, wine, and cocktails) and $2 off select calls\nMondays\nHalf-price draft cocktails",
-    "specialTuesday": "Happy Hour\n(Monday – Friday from 3pm – 7pm)\n1/2 off all drafts (includes beer, wine, and cocktails) and $2 off select calls",
-    "specialWednesday": "Happy Hour\n(Monday – Friday from 3pm – 7pm)\n1/2 off all drafts (includes beer, wine, and cocktails) and $2 off select calls",
-    "specialThursday": "Happy Hour\n(Monday – Friday from 3pm – 7pm)\n1/2 off all drafts (includes beer, wine, and cocktails) and $2 off select calls",
-    "specialFriday": "Happy Hour\n(Monday – Friday from 3pm – 7pm)\n1/2 off all drafts (includes beer, wine, and cocktails) and $2 off select calls",
+    "specialMonday": "Happy Hour, (Monday – Friday from 3pm – 7pm), 1/2 off all drafts (includes beer, wine, and cocktails) and $2 off select calls, Mondays, Half-price draft cocktails",
+    "specialTuesday": "Happy Hour, (Monday – Friday from 3pm – 7pm), 1/2 off all drafts (includes beer, wine, and cocktails) and $2 off select calls",
+    "specialWednesday": "Happy Hour, (Monday – Friday from 3pm – 7pm), 1/2 off all drafts (includes beer, wine, and cocktails) and $2 off select calls",
+    "specialThursday": "Happy Hour, (Monday – Friday from 3pm – 7pm), 1/2 off all drafts (includes beer, wine, and cocktails) and $2 off select calls",
+    "specialFriday": "Happy Hour, (Monday – Friday from 3pm – 7pm), 1/2 off all drafts (includes beer, wine, and cocktails) and $2 off select calls",
     "specialSaturday": "",
-    "specialSunday": "Sunday Fundays\nAfter 6PM\n$4 drafts\n$4 bombs\n$4 Rumpleminze\n$4 Fireball",
-    "Note": ""
+    "specialSunday": "Sunday Fundays, After 6PM, $4 drafts, $4 bombs, $4 Rumpleminze, $4 Fireball",
+    "Note": "",
+    "lat": 39.097176,
+    "long": -84.5093324
   },
   {
     "ID": 60,
@@ -1430,14 +1548,16 @@ export const barList = [
     "hoursFriday": "11AM–3AM",
     "hoursSaturday": "11AM–3AM",
     "hoursSunday": "11AM–3AM",
-    "specialMonday": "Monday:  $1 Local Beers\nHAPPY HOUR\nMonday - Friday  2PM - 7PM\n$2 Domestic Drafts\n$3 Import Drafts\n$3.5 Locals Draft \n$3 Wells\n$2 off House Wines",
-    "specialTuesday": "Tuesday:  50% off for Industry $3 DosXX 16oz Cans \nHAPPY HOUR\nMonday - Friday  2PM - 7PM\n$2 Domestic Drafts\n$3 Import Drafts\n$3.5 Locals Draft \n$3 Wells\n$2 off House Wines",
-    "specialWednesday": "Wednesday: $5 Domestic 32 Oz Drafts\nHAPPY HOUR\nMonday - Friday  2PM - 7PM\n$2 Domestic Drafts\n$3 Import Drafts\n$3.5 Locals Draft \n$3 Wells\n$2 off House Wines",
-    "specialThursday": "Thursday: $3 Wells, $3 Fireball all night \nHAPPY HOUR\nMonday - Friday  2PM - 7PM\n$2 Domestic Drafts\n$3 Import Drafts\n$3.5 Locals Draft \n$3 Wells\n$2 off House Wines",
-    "specialFriday": "Friday:  $3 PBR Tall Boys, $4 House Shots \nHAPPY HOUR\nMonday - Friday  2PM - 7PM\n$2 Domestic Drafts\n$3 Import Drafts\n$3.5 Locals Draft \n$3 Wells\n$2 off House Wines",
+    "specialMonday": "Monday:  $1 Local Beers, HAPPY HOUR, Monday - Friday  2PM - 7PM, $2 Domestic Drafts, $3 Import Drafts, $3.5 Locals Draft , $3 Wells, $2 off House Wines",
+    "specialTuesday": "Tuesday:  50% off for Industry $3 DosXX 16oz Cans , HAPPY HOUR, Monday - Friday  2PM - 7PM, $2 Domestic Drafts, $3 Import Drafts, $3.5 Locals Draft , $3 Wells, $2 off House Wines",
+    "specialWednesday": "Wednesday: $5 Domestic 32 Oz Drafts, HAPPY HOUR, Monday - Friday  2PM - 7PM, $2 Domestic Drafts, $3 Import Drafts, $3.5 Locals Draft , $3 Wells, $2 off House Wines",
+    "specialThursday": "Thursday: $3 Wells, $3 Fireball all night , HAPPY HOUR, Monday - Friday  2PM - 7PM, $2 Domestic Drafts, $3 Import Drafts, $3.5 Locals Draft , $3 Wells, $2 off House Wines",
+    "specialFriday": "Friday:  $3 PBR Tall Boys, $4 House Shots , HAPPY HOUR, Monday - Friday  2PM - 7PM, $2 Domestic Drafts, $3 Import Drafts, $3.5 Locals Draft , $3 Wells, $2 off House Wines",
     "specialSaturday": "Saturday:  5 for $15 Bud Light Buckets till 5pm, $3 PBR Tall Boys, $4 House Shots",
     "specialSunday": "Sunday:  $15 Bottomles Mimosas,  $5 Bloody Mary's",
-    "Note": ""
+    "Note": "",
+    "lat": 39.097524,
+    "long": -84.509556
   },
   {
     "ID": 61,
@@ -1454,14 +1574,16 @@ export const barList = [
     "hoursFriday": "11AM–2AM",
     "hoursSaturday": "11AM–2AM",
     "hoursSunday": "11AM–2AM",
-    "specialMonday": "ABSOLUTELY MONDAY\nLooking for a way to bounce back from a long Monday at work? Come enjoy $4 Absolut drinks any way ya want ’em all day long. Service industry professionals enjoy 30% off drinks from 3 pm to close.",
-    "specialTuesday": "TORCHED TUESDAYS\nLooking to light up your night? We’ve got the “hot” ticket right here, with $2 shots of Fireball all night long.",
-    "specialWednesday": "WHISKEY WEDNESDAY\nGet over the hump with specials like $2 Jameson shots or $3 Guinness pints, or put that pinky out and enjoy a glass of any house vino for only $3!",
-    "specialThursday": "CRAFT CAN THURSDAY\nCome get Crafty with us on Thursdays, when all craft cans are only $3 all day long. Snag a shot of Jagermeister for $3 or make it a Bomb for only $5.",
-    "specialFriday": "BOMBS AWAY! FRIDAY\nWhat better way to tackle the weekend head-on than slamming down $3 Vegas Bombs from 3 pm to close? Nothing coming to mind? We didn’t think so. Get in here, already!",
-    "specialSaturday": "CAR BOMB CHAOS SATURDAY\nThe weekend is in full swing, so let’s blow it up with $5 Car Bombs all day long.",
-    "specialSunday": "SERVICE INDUSTRY SUNDAY\nService Industry friends enjoy 30% off drinks all day. We also feature Clark’s Famous Furknocker Bloody Marys for $4. Snag a pitcher of draft beer for only $10.50 All. Day. Long.",
-    "Note": ""
+    "specialMonday": "ABSOLUTELY MONDAY, Looking for a way to bounce back from a long Monday at work? Come enjoy $4 Absolut drinks any way ya want ’em all day long. Service industry professionals enjoy 30% off drinks from 3 pm to close.",
+    "specialTuesday": "TORCHED TUESDAYS, Looking to light up your night? We’ve got the “hot” ticket right here, with $2 shots of Fireball all night long.",
+    "specialWednesday": "WHISKEY WEDNESDAY, Get over the hump with specials like $2 Jameson shots or $3 Guinness pints, or put that pinky out and enjoy a glass of any house vino for only $3!",
+    "specialThursday": "CRAFT CAN THURSDAY, Come get Crafty with us on Thursdays, when all craft cans are only $3 all day long. Snag a shot of Jagermeister for $3 or make it a Bomb for only $5.",
+    "specialFriday": "BOMBS AWAY! FRIDAY, What better way to tackle the weekend head-on than slamming down $3 Vegas Bombs from 3 pm to close? Nothing coming to mind? We didn’t think so. Get in here, already!",
+    "specialSaturday": "CAR BOMB CHAOS SATURDAY, The weekend is in full swing, so let’s blow it up with $5 Car Bombs all day long.",
+    "specialSunday": "SERVICE INDUSTRY SUNDAY, Service Industry friends enjoy 30% off drinks all day. We also feature Clark’s Famous Furknocker Bloody Marys for $4. Snag a pitcher of draft beer for only $10.50 All. Day. Long.",
+    "Note": "",
+    "lat": 39.099223,
+    "long": -84.513532
   },
   {
     "ID": 62,
@@ -1485,7 +1607,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.09630095,
+    "long": -84.5087167704914
   },
   {
     "ID": 63,
@@ -1509,7 +1633,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.0901104046977,
+    "long": -84.4923346489161
   },
   {
     "ID": 64,
@@ -1526,14 +1652,16 @@ export const barList = [
     "hoursFriday": "11AM–2:30AM",
     "hoursSaturday": "11:30AM–2:30AM",
     "hoursSunday": "11:30AM–12AM",
-    "specialMonday": "69 cent wings Dine-In Only\nHappy Hour Food & Drink Specials 3-6PM & 9PM - Close",
-    "specialTuesday": "7.95 Buffalo Chicken Wrap\nHappy Hour Food & Drink Specials 3-6PM & 9PM - Close",
-    "specialWednesday": "7.95 Burger Mania\nHappy Hour Food & Drink Specials 3-6PM & 9PM - Close",
-    "specialThursday": "8.95 Pulled Pork BBQ\nHappy Hour Food & Drink Specials 3-6PM & 9PM - Close",
-    "specialFriday": "7.95 Fish Fillet & Fish Tacos\nHappy Hour Food & Drink Specials 3-6PM & 9PM - Close",
-    "specialSaturday": "Chef's Special\nHappy Hour Food & Drink Specials 3-6PM & 9PM - Close",
-    "specialSunday": "Chef's Special\nHappy Hour Food & Drink Specials 3-6PM & 9PM - Close",
-    "Note": ""
+    "specialMonday": "69 cent wings Dine-In Only, Happy Hour Food & Drink Specials 3-6PM & 9PM - Close",
+    "specialTuesday": "7.95 Buffalo Chicken Wrap, Happy Hour Food & Drink Specials 3-6PM & 9PM - Close",
+    "specialWednesday": "7.95 Burger Mania, Happy Hour Food & Drink Specials 3-6PM & 9PM - Close",
+    "specialThursday": "8.95 Pulled Pork BBQ, Happy Hour Food & Drink Specials 3-6PM & 9PM - Close",
+    "specialFriday": "7.95 Fish Fillet & Fish Tacos, Happy Hour Food & Drink Specials 3-6PM & 9PM - Close",
+    "specialSaturday": "Chef's Special, Happy Hour Food & Drink Specials 3-6PM & 9PM - Close",
+    "specialSunday": "Chef's Special, Happy Hour Food & Drink Specials 3-6PM & 9PM - Close",
+    "Note": "",
+    "lat": 39.15136225,
+    "long": -84.4320140420265
   },
   {
     "ID": 65,
@@ -1557,7 +1685,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1525388,
+    "long": -84.4306678797942
   },
   {
     "ID": 66,
@@ -1581,7 +1711,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1539138586247,
+    "long": -84.4266419468094
   },
   {
     "ID": 67,
@@ -1605,7 +1737,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1517762,
+    "long": -84.4328744
   },
   {
     "ID": 68,
@@ -1622,14 +1756,16 @@ export const barList = [
     "hoursFriday": "11AM–2AM",
     "hoursSaturday": "11AM–2AM",
     "hoursSunday": "11AM–2AM",
-    "specialMonday": "HAPPY HOUR\nMonday-Friday\n4pm-7pm\n$3.50 Drafts\n$4.50 Wines\n$5.50 Signature Martinis\nHalf Price Select Apps\nand Flatbreads",
-    "specialTuesday": "HAPPY HOUR\nMonday-Friday\n4pm-7pm\n$3.50 Drafts\n$4.50 Wines\n$5.50 Signature Martinis\nHalf Price Select Apps\nand Flatbreads",
-    "specialWednesday": "HAPPY HOUR\nMonday-Friday\n4pm-7pm\n$3.50 Drafts\n$4.50 Wines\n$5.50 Signature Martinis\nHalf Price Select Apps\nand Flatbreads",
-    "specialThursday": "HAPPY HOUR\nMonday-Friday\n4pm-7pm\n$3.50 Drafts\n$4.50 Wines\n$5.50 Signature Martinis\nHalf Price Select Apps\nand Flatbreads",
-    "specialFriday": "HAPPY HOUR\nMonday-Friday\n4pm-7pm\n$3.50 Drafts\n$4.50 Wines\n$5.50 Signature Martinis\nHalf Price Select Apps\nand Flatbreads",
+    "specialMonday": "HAPPY HOUR, Monday-Friday, 4pm-7pm, $3.50 Drafts, $4.50 Wines, $5.50 Signature Martinis, Half Price Select Apps, and Flatbreads",
+    "specialTuesday": "HAPPY HOUR, Monday-Friday, 4pm-7pm, $3.50 Drafts, $4.50 Wines, $5.50 Signature Martinis, Half Price Select Apps, and Flatbreads",
+    "specialWednesday": "HAPPY HOUR, Monday-Friday, 4pm-7pm, $3.50 Drafts, $4.50 Wines, $5.50 Signature Martinis, Half Price Select Apps, and Flatbreads",
+    "specialThursday": "HAPPY HOUR, Monday-Friday, 4pm-7pm, $3.50 Drafts, $4.50 Wines, $5.50 Signature Martinis, Half Price Select Apps, and Flatbreads",
+    "specialFriday": "HAPPY HOUR, Monday-Friday, 4pm-7pm, $3.50 Drafts, $4.50 Wines, $5.50 Signature Martinis, Half Price Select Apps, and Flatbreads",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.158331,
+    "long": -84.4276546
   },
   {
     "ID": 69,
@@ -1653,7 +1789,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.144556,
+    "long": -84.4350567
   },
   {
     "ID": 70,
@@ -1677,7 +1815,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.158331,
+    "long": -84.4276546
   },
   {
     "ID": 71,
@@ -1698,10 +1838,12 @@ export const barList = [
     "specialTuesday": "Happy Hour prices from 4-6 pm.",
     "specialWednesday": "Happy Hour prices from 4-6 pm.",
     "specialThursday": "Happy Hour prices from 4-6 pm.",
-    "specialFriday": "Happy Hour prices from 4-6 pm.\nFriday Night Tasting\nEVERY FRIDAY NIGHT\n5 - 8 pm, $10\n​Enjoy 5 glass pours. Tasting takes places upstairs in The Tasting Room, but you're welcome to enjoy your wine downstairs in The Cellar.",
+    "specialFriday": "Happy Hour prices from 4-6 pm., Friday Night Tasting, EVERY FRIDAY NIGHT, 5 - 8 pm, $10, ​Enjoy 5 glass pours. Tasting takes places upstairs in The Tasting Room, but you're welcome to enjoy your wine downstairs in The Cellar.",
     "specialSaturday": "Happy Hour prices from 4-6 pm.",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.152024,
+    "long": -84.4331021
   },
   {
     "ID": 72,
@@ -1725,7 +1867,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1546832,
+    "long": -84.4261936
   },
   {
     "ID": 73,
@@ -1749,7 +1893,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1412901,
+    "long": -84.4187775
   },
   {
     "ID": 74,
@@ -1773,7 +1919,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1518389,
+    "long": -84.4319005
   },
   {
     "ID": 75,
@@ -1790,14 +1938,16 @@ export const barList = [
     "hoursFriday": "11:30AM–2:30AM",
     "hoursSaturday": "10AM–2:30AM",
     "hoursSunday": "10AM–12AM",
-    "specialMonday": "Half-Price Mac & Cheese\nw/ beverage purchase until 11pm and $4 Moscow Mules from 6pm – Close\nMonday – Friday 3-6pm\n1/2 price appetizers, 1/2 price bottles of wine, 1/2 price signature cocktails, $2 off select drafts, and $2 domestics",
-    "specialTuesday": "Half-Price Quesadillas\nw/ beverage purchase until 11pm and $2 Tall Boys all day\nMonday – Friday 3-6pm\n1/2 price appetizers, 1/2 price bottles of wine, 1/2 price signature cocktails, $2 off select drafts, and $2 domestics",
-    "specialWednesday": "BYOB (Build Your Own Burger Night)\nLocal beer of the month for $3 beginning at 6pm\nMonday – Friday 3-6pm\n1/2 price appetizers, 1/2 price bottles of wine, 1/2 price signature cocktails, $2 off select drafts, and $2 domestics",
-    "specialThursday": "Half-Price Pints\nall day *rare exclusions apply\nMonday – Friday 3-6pm\n1/2 price appetizers, 1/2 price bottles of wine, 1/2 price signature cocktails, $2 off select drafts, and $2 domestics",
-    "specialFriday": "Double-Down Happy Hour\nHappy hour pricing from 3-6pm and 9pm-close\nMonday – Friday 3-6pm\n1/2 price appetizers, 1/2 price bottles of wine, 1/2 price signature cocktails, $2 off select drafts, and $2 domestics",
-    "specialSaturday": "$14 Mimosa Pitchers (10am – 2pm)\n$3 Green Tea, Jameson, Fireball, Big Blue shots with the purchase of any beer from 9pm-close",
-    "specialSunday": "$14 Mimosa Pitchers (11am – 2pm)\n$2 domestic bottles and half-price signature cocktails from 2pm-close",
-    "Note": ""
+    "specialMonday": "Half-Price Mac & Cheese, w/ beverage purchase until 11pm and $4 Moscow Mules from 6pm – Close, Monday – Friday 3-6pm, 1/2 price appetizers, 1/2 price bottles of wine, 1/2 price signature cocktails, $2 off select drafts, and $2 domestics",
+    "specialTuesday": "Half-Price Quesadillas, w/ beverage purchase until 11pm and $2 Tall Boys all day, Monday – Friday 3-6pm, 1/2 price appetizers, 1/2 price bottles of wine, 1/2 price signature cocktails, $2 off select drafts, and $2 domestics",
+    "specialWednesday": "BYOB (Build Your Own Burger Night), Local beer of the month for $3 beginning at 6pm, Monday – Friday 3-6pm, 1/2 price appetizers, 1/2 price bottles of wine, 1/2 price signature cocktails, $2 off select drafts, and $2 domestics",
+    "specialThursday": "Half-Price Pints, all day *rare exclusions apply, Monday – Friday 3-6pm, 1/2 price appetizers, 1/2 price bottles of wine, 1/2 price signature cocktails, $2 off select drafts, and $2 domestics",
+    "specialFriday": "Double-Down Happy Hour, Happy hour pricing from 3-6pm and 9pm-close, Monday – Friday 3-6pm, 1/2 price appetizers, 1/2 price bottles of wine, 1/2 price signature cocktails, $2 off select drafts, and $2 domestics",
+    "specialSaturday": "$14 Mimosa Pitchers (10am – 2pm), $3 Green Tea, Jameson, Fireball, Big Blue shots with the purchase of any beer from 9pm-close",
+    "specialSunday": "$14 Mimosa Pitchers (11am – 2pm), $2 domestic bottles and half-price signature cocktails from 2pm-close",
+    "Note": "",
+    "lat": 39.141479,
+    "long": -84.421071
   },
   {
     "ID": 76,
@@ -1821,7 +1971,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1511605,
+    "long": -84.4424661
   },
   {
     "ID": 77,
@@ -1838,14 +1990,16 @@ export const barList = [
     "hoursFriday": "3:30PM–2:30AM",
     "hoursSaturday": "3:30PM–2:30AM",
     "hoursSunday": "12PM–2:30AM",
-    "specialMonday": "Happy Hour:\nMonday – Thursday 3:30pm – 9pm\n$2.00 Domestic Bottles and drafts\n$3.00 Well Liquor Drinks",
-    "specialTuesday": "Happy Hour:\nMonday – Thursday 3:30pm – 9pm\n$2.00 Domestic Bottles and drafts\n$3.00 Well Liquor Drinks",
-    "specialWednesday": "Happy Hour:\nMonday – Thursday 3:30pm – 9pm\n$2.00 Domestic Bottles and drafts\n$3.00 Well Liquor Drinks",
-    "specialThursday": "Happy Hour:\nMonday – Thursday 3:30pm – 9pm\n$2.00 Domestic Bottles and drafts\n$3.00 Well Liquor Drinks",
-    "specialFriday": "Happy Hour:\nFriday 3:30pm – 7:30pm\n$2.00 Domestic Bottles and drafts\n$3.00 Well Liquor Drinks",
-    "specialSaturday": "Happy Hour:\nSaturday – Sunday 12pm – 7:30pm\n$2.00 Domestic Bottles and drafts\n$3.00 Well Liquor Drinks",
-    "specialSunday": "Happy Hour:\nSaturday – Sunday 12pm – 7:30pm\n$2.00 Domestic Bottles and drafts\n$3.00 Well Liquor Drinks",
-    "Note": ""
+    "specialMonday": ", Happy Hour:, Monday – Thursday 3:30pm – 9pm, $2.00 Domestic Bottles and drafts, $3.00 Well Liquor Drinks",
+    "specialTuesday": ", Happy Hour:, Monday – Thursday 3:30pm – 9pm, $2.00 Domestic Bottles and drafts, $3.00 Well Liquor Drinks",
+    "specialWednesday": ", Happy Hour:, Monday – Thursday 3:30pm – 9pm, $2.00 Domestic Bottles and drafts, $3.00 Well Liquor Drinks",
+    "specialThursday": ", Happy Hour:, Monday – Thursday 3:30pm – 9pm, $2.00 Domestic Bottles and drafts, $3.00 Well Liquor Drinks",
+    "specialFriday": "Happy Hour:, Friday 3:30pm – 7:30pm, $2.00 Domestic Bottles and drafts, $3.00 Well Liquor Drinks",
+    "specialSaturday": ", Happy Hour:, Saturday – Sunday 12pm – 7:30pm, $2.00 Domestic Bottles and drafts, $3.00 Well Liquor Drinks",
+    "specialSunday": ", Happy Hour:, Saturday – Sunday 12pm – 7:30pm, $2.00 Domestic Bottles and drafts, $3.00 Well Liquor Drinks",
+    "Note": "",
+    "lat": 39.1445352,
+    "long": -84.4354027
   },
   {
     "ID": 78,
@@ -1869,7 +2023,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1387176,
+    "long": -84.4419998
   },
   {
     "ID": 79,
@@ -1893,7 +2049,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1563725,
+    "long": -84.4239715
   },
   {
     "ID": 80,
@@ -1910,14 +2068,16 @@ export const barList = [
     "hoursFriday": "11AM–1AM",
     "hoursSaturday": "10AM–1AM",
     "hoursSunday": "10AM–11PM",
-    "specialMonday": "Happy Hour\nMonday – Friday | 3pm – 7pm\n$5.00 Appetizers\nDrink Specials\nMonday\nPub Quiz 7:30pm",
-    "specialTuesday": "Happy Hour\nMonday – Friday | 3pm – 7pm\n$5.00 Appetizers\nDrink Specials",
-    "specialWednesday": "Happy Hour\nMonday – Friday | 3pm – 7pm\n$5.00 Appetizers\nDrink Specials\nWednesday\n1/2 priced bottles of select wines",
-    "specialThursday": "Happy Hour\nMonday – Friday | 3pm – 7pm\n$5.00 Appetizers\nDrink Specials",
-    "specialFriday": "Happy Hour\nMonday – Friday | 3pm – 7pm\n$5.00 Appetizers\nDrink Specials",
+    "specialMonday": "Happy Hour, Monday – Friday | 3pm – 7pm, $5.00 Appetizers, Drink Specials, Monday, Pub Quiz 7:30pm",
+    "specialTuesday": "Happy Hour, Monday – Friday | 3pm – 7pm, $5.00 Appetizers, Drink Specials",
+    "specialWednesday": "Happy Hour, Monday – Friday | 3pm – 7pm, $5.00 Appetizers, Drink Specials, Wednesday, 1/2 priced bottles of select wines",
+    "specialThursday": "Happy Hour, Monday – Friday | 3pm – 7pm, $5.00 Appetizers, Drink Specials",
+    "specialFriday": "Happy Hour, Monday – Friday | 3pm – 7pm, $5.00 Appetizers, Drink Specials",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": "Military Discount\nAll members of the military receive a 25% discount on food purchases when they present a military ID."
+    "Note": "Military Discount, All members of the military receive a 25% discount on food purchases when they present a military ID.",
+    "lat": 39.1482873,
+    "long": -84.4427869
   },
   {
     "ID": 81,
@@ -1941,7 +2101,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1414011,
+    "long": -84.4215840603453
   },
   {
     "ID": 82,
@@ -1965,7 +2127,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1282003,
+    "long": -84.4299379
   },
   {
     "ID": 83,
@@ -1989,7 +2153,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.167171,
+    "long": -84.429478
   },
   {
     "ID": 84,
@@ -2013,7 +2179,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1217775,
+    "long": -84.4751191
   },
   {
     "ID": 85,
@@ -2037,7 +2205,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1226349,
+    "long": -84.4186019
   },
   {
     "ID": 86,
@@ -2061,7 +2231,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1297005,
+    "long": -84.4293832
   },
   {
     "ID": 87,
@@ -2085,7 +2257,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1288464,
+    "long": -84.4305803
   },
   {
     "ID": 88,
@@ -2109,7 +2283,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.11607725,
+    "long": -84.4389978359318
   },
   {
     "ID": 89,
@@ -2133,7 +2309,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.118528,
+    "long": -84.443819
   },
   {
     "ID": 90,
@@ -2157,7 +2335,9 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1225108552086,
+    "long": -84.4154351749061
   },
   {
     "ID": 91,
@@ -2181,6 +2361,8 @@ export const barList = [
     "specialFriday": "",
     "specialSaturday": "",
     "specialSunday": "",
-    "Note": ""
+    "Note": "",
+    "lat": 39.1394519,
+    "long": -84.4434628
   }
 ]
