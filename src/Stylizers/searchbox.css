@@ -13,7 +13,6 @@ input[type="search"] {
   margin-bottom: 10px;
   display: inline-block;
   border: 1px solid #2e1300;
-  border-radius: 5px;
   background: url(../assets/icons8-search.svg) no-repeat scroll 5px 5px;
 }
 
