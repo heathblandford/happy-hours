@@ -12,15 +12,17 @@ input[type="search"] {
   font-family: "Cairo", sans-serif;
   margin-bottom: 10px;
   display: inline-block;
-  border: none;
+  border: 1px solid #2e1300;
   border-radius: 5px;
+  background: url(../assets/icons8-search.svg) no-repeat scroll 5px 5px;
 }
 
 input[type="search"]::placeholder {
   text-align: center;
   font-family: "Cairo", sans-serif;
   font-size: 1.2rem;
-  color: #2e1300;
+  color: rgba(46,19,0, 0.8);
+  padding: 2px 0px;
 }
 
 input[type="search"]:focus {
