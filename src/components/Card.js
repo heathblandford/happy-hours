@@ -62,8 +62,8 @@ class Card extends React.Component {
           <h1>{barName}</h1>
           <h3>{neighborhood}</h3>
           <p>{phoneNumber}</p>
-          <p>{address}</p>
-          <p>
+          <p>Address: <a href={`https://maps.google.com/?q=${address}`}>{address}</a></p>
+          <p>Website: 
             <a href={!website ? "#" : website}>
               {!website ? "hmmm... no website?" : website}
             </a>
