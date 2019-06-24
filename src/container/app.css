@@ -5,8 +5,8 @@
 header {
   margin-bottom: 50px;
   background-color: #dc8c01;
-  width: 100%;
   padding: 0;
+  text-align: center;
 }
 
 .neighborhoodFilter {
@@ -26,7 +26,7 @@ header {
 }
 
 .filters {
-  width: 100vw;
+  margin: auto;
   display: inline-block;
   text-align: center;
   vertical-align: top;
