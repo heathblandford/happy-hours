@@ -15,7 +15,7 @@ const Header = ({ dealDay }) => {
     return (
         <div className="header">
             <h1 className="title">Pour Decisions</h1>
-            <p className="slogan">{dayOfTheWeek}</p>
+            <p className="slogan">Showing Deals for: {dayOfTheWeek}</p>
         </div>
     );
 }

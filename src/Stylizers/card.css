@@ -1,12 +1,14 @@
 .Card {
   display: inline-block;
-  height: 500px;
-  width: 400px;
+  min-height: 500px;
+  height: max-content;
+  width: 300px;
   margin: 25px;
-  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
   transition: all 0.1s ease-in-out;
   background-color: white;
   vertical-align: top;
+  border-radius: 15px;
 }
 
 .Card:hover {
@@ -60,6 +62,10 @@ hr.style-two {
   color: #2e1300;
 }
 
+.expand {
+  font-family: "Cairo", sans-serif;
+}
+
 .Modal {
   position: absolute;
   top: 50%;
@@ -87,15 +93,19 @@ hr.style-two {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+.Modal {
+  border-radius: 15px;
+}
+
 .Modal * {
   padding: 0px 10px;
 }
-
+/* 
 .Modal #mapID {
   height: 100px;
   width: 100%;
   text-align: center;
-}
+} */
 
 .Modal button {
   background-color: transparent;
