@@ -13,6 +13,7 @@ class App extends Component {
     super();
     this.state = {
       listOfBars: barList,
+      // bars: [],
       searchfield: "",
       neighborhoodFilter: "",
       dayFilter: "",
@@ -57,15 +58,27 @@ class App extends Component {
     this.setState({ modalIsOpen: false });
   };
 
-  handleSubmit = e => { //TODO uncomment this stuff when API is finished
+  handleSubmit = e => {
+    //TODO uncomment this stuff when API is finished
     //this is a "manual" submit instead of just using standard HTML type submit
-//    document.addNewBar.submit(); //this is how we submit
-//    setTimeout(() => {
-//      this.setState({ modalIsOpen: false });
-//    }, 500); // set time out so that the web page had time to submit the form
-//    e.preventDefault(); //prevent default submit option. ez pz
-    alert("hey! sorry! thanks for trying to add a new bar and deal! this feature is still being developed, but you can tweet @whoisheath_ and let him know what you would like to add!")
+    //    document.addNewBar.submit(); //this is how we submit
+    //    setTimeout(() => {
+    //      this.setState({ modalIsOpen: false });
+    //    }, 500); // set time out so that the web page had time to submit the form
+    //    e.preventDefault(); //prevent default submit option. ez pz
+    alert(
+      "hey! sorry! thanks for trying to add a new bar and deal! this feature is still being developed, but you can tweet @whoisheath_ and let him know what you would like to add!"
+    );
   };
+
+  // TODO: Finish what you've started here! 
+  // componentDidMount() {
+  //   // fetch data from cincy-bars api
+  //   fetch("#")
+  //     .then(response => response.json())
+  //     // { data } is object shorthand. this.setState() expects an object to return an array
+  //     .then(data => this.setState({ bars }));
+  // }
 
   render() {
     //filterbars based on existing bars
@@ -127,8 +140,12 @@ class App extends Component {
 
             <br />
             <div className="button-holder">
-              <button type="submit" className="add-new-bar-buttons">Add it!</button>
-              <button onClick={this.closeModal} className="add-new-bar-buttons">Close</button>
+              <button type="submit" className="add-new-bar-buttons">
+                Add it!
+              </button>
+              <button onClick={this.closeModal} className="add-new-bar-buttons">
+                Close
+              </button>
             </div>
           </form>
         </Modal>
