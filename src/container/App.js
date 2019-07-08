@@ -60,6 +60,7 @@ class App extends Component {
 
   handleSubmit = e => {
     //TODO uncomment this stuff when API is finished
+    //* this handle submit is already good to go for the form submit just need to have a real URL to send the data to
     //this is a "manual" submit instead of just using standard HTML type submit
     //    document.addNewBar.submit(); //this is how we submit
     //    setTimeout(() => {

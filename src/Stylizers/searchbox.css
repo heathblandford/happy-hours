@@ -5,14 +5,14 @@ input[type="search"] {
   height: 35px;
   width: 300px;
   /* border-radius: 15px; */
-  color: #000000;
+  color: #ffffff;
   text-align: center;
   font-size: 1.2rem;
   font-weight: bold;
   font-family: "Cairo", sans-serif;
   margin-bottom: 10px;
   display: inline-block;
-  border: 1px solid #000000;
+  border: 1px solid #ffffff;
   border-radius: 5px;
   background: url(../assets/icons8-search.svg) no-repeat scroll 5px 5px;
 }
@@ -21,7 +21,7 @@ input[type="search"]::placeholder {
   text-align: center;
   font-family: "Cairo", sans-serif;
   font-size: 1.2rem;
-  color: rgba(0, 0, 0, 0.8);
+  color: #fff;
   padding: 2px 0px;
 }
 

@@ -9,7 +9,7 @@ select {
   /* -webkit-appearance: none; */
   vertical-align: top;
   margin-bottom: 10px;
-  /* border: none; */
+  border: none;
   border-radius: 5px;
   text-align: center;
 }
