@@ -46,6 +46,7 @@ class App extends Component {
     this.setState({ searchfield: "", neighborhoodFilter: "", dayFilter: "" });
     document.getElementById("nf").selectedIndex = 0;
     document.getElementById("df").selectedIndex = 0;
+    document.getElementById("sb").value = "";
   }
 
   // modal state handlers
