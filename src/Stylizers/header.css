@@ -4,7 +4,7 @@
 
 .title {
     margin: 0;
-    color: #2e1300;
+    color: #000000;
     font-size: 4rem;
     font-family: 'Righteous', cursive;
     font-weight: bold;
@@ -13,7 +13,7 @@
 
 .slogan {
     font-family: 'Cairo', sans-serif;
-    color: #2e1300;
+    color: #000000;
     font-size: 1.75rem;
 }
 

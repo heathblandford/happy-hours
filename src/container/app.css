@@ -1,12 +1,12 @@
 #root {
-  background-color: #dc8c01;
+  background-color: #ffffff;
   min-height: 100vh;
   height: max-content;
 }
 
 header {
   margin-bottom: 50px;
-  background-color: #dc8c01;
+  background-color: #ffffff;
   width: 100%;
   padding: 0;
 }
@@ -147,7 +147,7 @@ header {
 .tc {
   text-align: center;
   vertical-align: top;
-  background-color: #dc8c01;
+  background-color: #ffffff;
 }
 
 .Card {
@@ -156,8 +156,9 @@ header {
 
 .filters button {
   background-color: transparent;
-  border: 1px solid #2e1300;
-  color: #2e1300;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  color: #000000;
   padding: 8px 16px;
   text-align: center;
   text-decoration: none;
@@ -169,9 +170,9 @@ header {
 }
 
 .filters button:hover {
-  background-color: #2e1300;
-  color: #dc8c01;
-  border: 1px solid #dc8c01;
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #000000;
 }
 
 .filters button:focus {
