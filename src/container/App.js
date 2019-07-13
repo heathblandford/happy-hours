@@ -60,8 +60,6 @@ class App extends Component {
   };
 
   handleSubmit = e => {
-    //TODO uncomment this stuff when API is finished
-    //* this handle submit is already good to go for the form submit just need to have a real URL to send the data to
     //this is a "manual" submit instead of just using standard HTML type submit
     document.addNewBar.submit(); //this is how we submit
     setTimeout(() => {
@@ -75,18 +73,13 @@ class App extends Component {
 
     }, 500);// set time out so that the web page had time to submit the form
 
-    e.preventDefault(); //prevent default submit option. ez pz
-    // alert(
-    //   "hey! sorry! thanks for trying to add a new bar and deal! this feature is still being developed, but you can tweet @whoisheath_ and let him know what you would like to add!"
-    // );
+    e.preventDefault();
   };
 
-  // TODO: Finish what you've started here!
   componentDidMount() {
     // fetch data from cincy-bars api
     fetch(`https://enigmatic-lowlands-48374.herokuapp.com/cincy-bars/bars`)
       .then(response => response.json())
-      // { data } is object shorthand. this.setState() expects an object to return an array
       .then(bars => this.setState({ bars }));
   }
 
@@ -110,7 +103,6 @@ class App extends Component {
           className="Modal"
           overlayClassName="Overlay"
         >
-          {/* form action will eventually be the api URL that the backend has */}
           <form
             action="https://enigmatic-lowlands-48374.herokuapp.com/cincy-bars/add-new-bar"
             method="post"
