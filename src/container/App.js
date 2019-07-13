@@ -4,7 +4,6 @@ import CardList from "../components/CardList";
 import Searchbox from "../components/Searchbox";
 import NeighborhoodFilter from "../components/NeighorhoodFilter";
 import DayFilter from "../components/DayFilter";
-// import { barList } from "../barList";
 import "./app.css";
 import Modal from "react-modal";
 import Swal from 'sweetalert2';
@@ -14,8 +13,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      listOfBars: barList,
-    //   bars: [],
+      bars: [],
       searchfield: "",
       neighborhoodFilter: "",
       dayFilter: "",
@@ -86,7 +84,7 @@ class App extends Component {
   // TODO: Finish what you've started here!
   componentDidMount() {
     // fetch data from cincy-bars api
-    fetch(`#`)
+    fetch(`https://enigmatic-lowlands-48374.herokuapp.com/cincy-bars/bars`)
       .then(response => response.json())
       // { data } is object shorthand. this.setState() expects an object to return an array
       .then(bars => this.setState({ bars }));
@@ -114,7 +112,7 @@ class App extends Component {
         >
           {/* form action will eventually be the api URL that the backend has */}
           <form
-            action="#"
+            action="https://enigmatic-lowlands-48374.herokuapp.com/cincy-bars/add-new-bar"
             method="post"
             target="dummyframe"
             onSubmit={this.handleSubmit}
