@@ -5,6 +5,8 @@ happyHoursSketch.xd
 
 barList.xlsx
 
+.env
+
 # dependencies
 /node_modules
 

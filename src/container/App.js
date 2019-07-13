@@ -4,16 +4,18 @@ import CardList from "../components/CardList";
 import Searchbox from "../components/Searchbox";
 import NeighborhoodFilter from "../components/NeighorhoodFilter";
 import DayFilter from "../components/DayFilter";
-import { barList } from "../barList";
+// import { barList } from "../barList";
 import "./app.css";
 import Modal from "react-modal";
+import Swal from 'sweetalert2';
+// require('dotenv').config();
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
       listOfBars: barList,
-      // bars: [],
+    //   bars: [],
       searchfield: "",
       neighborhoodFilter: "",
       dayFilter: "",
@@ -63,28 +65,36 @@ class App extends Component {
     //TODO uncomment this stuff when API is finished
     //* this handle submit is already good to go for the form submit just need to have a real URL to send the data to
     //this is a "manual" submit instead of just using standard HTML type submit
-    //    document.addNewBar.submit(); //this is how we submit
-    //    setTimeout(() => {
-    //      this.setState({ modalIsOpen: false });
-    //    }, 500); // set time out so that the web page had time to submit the form
-    //    e.preventDefault(); //prevent default submit option. ez pz
-    alert(
-      "hey! sorry! thanks for trying to add a new bar and deal! this feature is still being developed, but you can tweet @whoisheath_ and let him know what you would like to add!"
-    );
+    document.addNewBar.submit(); //this is how we submit
+    setTimeout(() => {
+      this.setState({ modalIsOpen: false });
+      Swal.fire({
+        title: 'Bar Added!',
+        text: "Thanks for adding a new deal! We're looking at it now and we'll add it if we find it valid!",
+        type: 'success',
+        confirmButtonText: 'Close'
+      })
+
+    }, 500);// set time out so that the web page had time to submit the form
+
+    e.preventDefault(); //prevent default submit option. ez pz
+    // alert(
+    //   "hey! sorry! thanks for trying to add a new bar and deal! this feature is still being developed, but you can tweet @whoisheath_ and let him know what you would like to add!"
+    // );
   };
 
-  // TODO: Finish what you've started here! 
-  // componentDidMount() {
-  //   // fetch data from cincy-bars api
-  //   fetch("#")
-  //     .then(response => response.json())
-  //     // { data } is object shorthand. this.setState() expects an object to return an array
-  //     .then(data => this.setState({ bars }));
-  // }
+  // TODO: Finish what you've started here!
+  componentDidMount() {
+    // fetch data from cincy-bars api
+    fetch(`#`)
+      .then(response => response.json())
+      // { data } is object shorthand. this.setState() expects an object to return an array
+      .then(bars => this.setState({ bars }));
+  }
 
   render() {
     //filterbars based on existing bars
-    const filterBars = this.state.listOfBars.filter(bar => {
+    const filterBars = this.state.bars.filter(bar => {
       return (
         bar.Bar.toLowerCase().includes(this.state.searchfield.toLowerCase()) &&
         bar.Neighborhood.includes(this.state.neighborhoodFilter)
