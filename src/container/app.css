@@ -1,12 +1,125 @@
 #root {
-  background-color: #dc8c01;
+  background-color: #fff;
+  min-height: 100vh;
+  height: max-content;
 }
 
 header {
   margin-bottom: 50px;
+<<<<<<< HEAD
+  background-color: #C6011F;
+  width: 100%;
+  padding: 50px 0px;
+}
+
+.Modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background-color: #efefef;
+  min-height: 300px;
+  height: max-content;
+  width: 600px;
+  padding: 15px;
+}
+
+.Modal:focus {
+  outline: none;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.Modal label {
+  font-family: 'Cairo', sans-serif;
+}
+
+.Modal input {
+  height: 25px;
+  border-radius: 25px;
+  margin-bottom: 15px;
+  font-family: 'Cairo', sans-serif;
+}
+
+.Modal input:focus{
+  outline: none;
+}
+
+.Modal textarea {
+  border-radius: 25px;
+  margin-right: 12px;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-left: 15px;
+  resize: none;
+  font-family: 'Cairo', sans-serif;
+  -moz-appearance:none;
+}
+
+.Modal textarea:focus{
+  outline: none;
+  -moz-appearance:none;
+}
+
+.Modal input::placeholder {
+  font-size: 1rem;
+  font-family: "Cairo", sans-serif;
+}
+
+.Modal textarea::placeholder {
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: "Cairo", sans-serif;
+}
+
+.Modal .add-new-bar-buttons {
+  margin-left: 10px;
+  background-color: #C6011F;
+  border: 2px solid transparent;
+  border-radius: 15px;
+  color: white;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Cairo", sans-serif;
+  font-weight: bold;
+  margin: 15px 10px;
+  cursor: pointer;
+}
+
+.Modal .add-new-bar-buttons:hover {
+  background-color: white;
+  border: 2px solid #555;
+  color: #555;
+}
+
+.Modal .add-new-bar-buttons:focus {
+  outline: 0;
+}
+
+.Modal .button-holder {
+  text-align: center;
+}
+
+.button-holder .add-new-bar-buttons {
+  width: 33%;
+=======
   background-color: #dc8c01;
   padding: 0;
   text-align: center;
+>>>>>>> master
 }
 
 .neighborhoodFilter {
@@ -26,13 +139,17 @@ header {
 }
 
 .filters {
+<<<<<<< HEAD
+  width: 100%;
+=======
   margin: auto;
+>>>>>>> master
   display: inline-block;
   text-align: center;
   vertical-align: top;
 }
 
-.filters *{
+.filters * {
   margin: 5px;
   padding: 0;
 }
@@ -40,7 +157,7 @@ header {
 .tc {
   text-align: center;
   vertical-align: top;
-  background-color: #dc8c01;
+  background-color: #ffffff;
 }
 
 .Card {
@@ -49,8 +166,9 @@ header {
 
 .filters button {
   background-color: transparent;
-  border: 1px solid #2e1300;
-  color: #2e1300;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #fff;
   padding: 8px 16px;
   text-align: center;
   text-decoration: none;
@@ -62,9 +180,9 @@ header {
 }
 
 .filters button:hover {
-  background-color: #2e1300;
-  color: #dc8c01;
-  border: 1px solid #dc8c01;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000000;
 }
 
 .filters button:focus {
@@ -72,5 +190,19 @@ header {
 }
 
 /* media queries  */
+@media only screen and (max-width: 700px) {
+  .Modal {
+    height: max-content;
+    width: 90%;
+    padding: 10px 0;
+  }
 
+  .Modal textarea {
+    width: 250px;
+    font-size: 1rem;
+  }
 
+  .Modal input::placeholder {
+    font-size: 1rem;
+  }
+}

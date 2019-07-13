@@ -1,12 +1,14 @@
 .Card {
   display: inline-block;
-  height: 500px;
-  width: 400px;
+  min-height: 500px;
+  height: max-content;
+  width: 300px;
   margin: 25px;
-  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.7);
   transition: all 0.1s ease-in-out;
   background-color: white;
   vertical-align: top;
+  border-radius: 15px;
 }
 
 .Card:hover {
@@ -22,7 +24,7 @@
   font-family: "Cairo", sans-serif;
   font-weight: bold;
   font-size: 2rem;
-  color: #2e1300;
+  color: #000000;
   padding: 0px 10px;
 }
 
@@ -43,12 +45,12 @@ hr.style-two {
   font-size: 1.2rem;
   padding-left: 15px;
   font-weight: bold;
-  color: #2e1300;
+  color: #000000;
 }
 
 .dayOfTheWeekCard {
   font-family: "Cairo", sans-serif;
-  color: #dc8c01;
+  color: #000000;
   text-decoration: none;
   font-size: 1rem;
   padding-left: 15px;
@@ -57,7 +59,11 @@ hr.style-two {
 .special {
   font-family: "Cairo", sans-serif;
   padding: 10px 15px;
-  color: #2e1300;
+  color: #000000;
+}
+
+.expand {
+  font-family: "Cairo", sans-serif;
 }
 
 .Modal {
@@ -87,20 +93,28 @@ hr.style-two {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+.Modal {
+  border-radius: 15px;
+}
+
+.Modal h1 {
+  font-family: 'Cairo', sans-serif;
+}
+
 .Modal * {
   padding: 0px 10px;
 }
-
+/* 
 .Modal #mapID {
   height: 100px;
   width: 100%;
   text-align: center;
-}
+} */
 
 .Modal button {
   background-color: transparent;
   border: none;
-  color: #2e1300;
+  color: #000000;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -113,7 +127,7 @@ hr.style-two {
 }
 
 .Modal h1 {
-  color: #2e1300;
+  color: #000000;
 }
 
 /* media queries */

@@ -4,7 +4,7 @@
 
 .title {
     margin: 0;
-    color: #2e1300;
+    color: #ffffff;
     font-size: 4rem;
     font-family: 'Righteous', cursive;
     font-weight: bold;
@@ -13,8 +13,8 @@
 
 .slogan {
     font-family: 'Cairo', sans-serif;
-    color: #2e1300;
-    font-size: 2rem;
+    color: #fff;
+    font-size: 1.75rem;
 }
 
 .dayOfTheWeek {
@@ -23,5 +23,5 @@
 }
 
 .dayOfTheWeek {
-    color: black;
+    color: #fff;
 }
