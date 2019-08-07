@@ -6,7 +6,6 @@
 
 header {
   margin-bottom: 50px;
-<<<<<<< HEAD
   background-color: #C6011F;
   width: 100%;
   padding: 50px 0px;
@@ -115,11 +114,6 @@ header {
 
 .button-holder .add-new-bar-buttons {
   width: 33%;
-=======
-  background-color: #dc8c01;
-  padding: 0;
-  text-align: center;
->>>>>>> master
 }
 
 .neighborhoodFilter {
@@ -139,11 +133,7 @@ header {
 }
 
 .filters {
-<<<<<<< HEAD
   width: 100%;
-=======
-  margin: auto;
->>>>>>> master
   display: inline-block;
   text-align: center;
   vertical-align: top;
