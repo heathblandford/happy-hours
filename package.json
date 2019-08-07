@@ -8,10 +8,10 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-leaflet": "^2.4.0",
-    "react-modal": "^3.8.2",
+    "react-modal": "^3.9.1",
     "react-scripts": "^3.0.1",
     "reactstrap": "^6.5.0",
-    "sweetalert2": "^8.13.3"
+    "sweetalert2": "^8.15.2"
   },
   "scripts": {
     "start": "react-scripts start",
