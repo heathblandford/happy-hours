@@ -6,6 +6,7 @@ import Error from '../components/Error';
 import AddDeal from '../components/AddDeal';
 import Contact from '../components/Contact';
 import About from '../components/About';
+import UpdateBar from '../components/UpdateABar';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
           <Route path="/add-a-deal" component={AddDeal} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
+          <Route path="/update-a-bar" component={UpdateBar} />
 
           <Route component={Error} />
         </Switch>

@@ -2,6 +2,7 @@ import React from "react";
 import "../Stylizers/card.css";
 import Modal from "react-modal";
 // import { Map, Marker, Popup, TileLayer } from "react-leaflet";
+import { Link } from 'react-router-dom';
 
 Modal.setAppElement("#root");
 
@@ -26,10 +27,10 @@ class Card extends React.Component {
     this.setState({ modalIsOpen: false });
   };
 
-  updateBar = e => {
-    e.stopPropagation();
-    alert("hey, sorry. thanks for trying to correct this deal, but this feature is currently being developed. If you'd like you can tweet @whoisheath_ and let him know what the deal for this bar should be")
-  }
+  // updateBar = e => {
+  //   e.stopPropagation();
+  //   alert("hey, sorry. thanks for trying to correct this deal, but this feature is currently being developed. If you'd like you can tweet @whoisheath_ and let him know what the deal for this bar should be")
+  // }
 
   render() {
     const {
@@ -100,7 +101,14 @@ class Card extends React.Component {
           </div> */}
           <div id="buttonHolder">
             <button onClick={this.closeModal}>CLOSE</button>
-            <button onClick={this.updateBar}>UPDATE</button>
+            <Link to={{
+              pathname: '/update-a-bar',
+              state: {
+                barName: barName
+              }
+            }}>
+              <button>UPDATE</button>
+            </Link>
           </div>
         </Modal>
       </div>
