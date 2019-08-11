@@ -14,6 +14,7 @@ class AllDeals extends Component {
   constructor() {
     super();
     this.state = {
+      loading: true,
       bars: [],
       searchfield: "",
       neighborhoodFilter: "",
@@ -81,10 +82,11 @@ class AllDeals extends Component {
     // fetch data from cincy-bars api
     fetch(`https://enigmatic-lowlands-48374.herokuapp.com/cincy-bars/bars`)
       .then(response => response.json())
-      .then(bars => this.setState({ bars }));
+      .then(bars => this.setState({ bars, loading: false }));
   }
 
   render() {
+    const { loading } = this.state;
     //filterbars based on existing bars
     const filterBars = this.state.bars.filter(bar => {
       return (
@@ -94,6 +96,10 @@ class AllDeals extends Component {
     });
 
     const dealDayFilter = this.state.dayFilter;
+
+    if(loading){
+      return null;
+    }
 
     return (
       <div>
