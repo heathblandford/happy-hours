@@ -1,13 +1,12 @@
 .main {
   background-image: url('../assets/adam-wilson-6UIonphZA5o-unsplash.jpg');
-  /* opacity: 0.8; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh !important;
+  height: 100vh;
 }
 
 .main {
@@ -15,13 +14,27 @@
   text-align: center;
 }
 
-h1 {
+.title-baby {
   margin: 0;
   color: chartreuse;
   font-size: 8em;
 }
 
-h5 {
+.slogan {
   margin: 0;
   font-size: 3em;
+}
+
+/* media query */
+@media only screen and (max-width: 700px) {
+  .main{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh !important;
+  }
+
+  .title-baby {
+    font-size: 4em;
+  }
 }
