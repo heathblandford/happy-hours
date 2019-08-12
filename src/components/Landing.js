@@ -10,16 +10,16 @@ class Landing extends Component{
         <h1 className="title-baby">Pour Decisions</h1>
         <h5 className="slogan">All of the Best Happy Hour Deals</h5>
         <Link to="/deals">
-          <button>See Deals</button>
+          <button className="btn">See Deals</button>
         </Link>
         <Link to="/add-a-deal">
-          <button>Quick Add a Deal</button>
+          <button className="btn">Quick Add a Deal</button>
         </Link>
         <Link to="/contact">
-          <button>Contact Us</button>
+          <button className="btn">Contact Us</button>
         </Link>
         <Link to="/about">
-          <button>About Us</button>
+          <button className="btn">About Us</button>
         </Link>
 
         <p>Photo by Adam Wilson on Unsplash</p>

@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom';
+import '../Stylizers/contact.css';
 
 class Contact extends Component {
   render() {
     return (
-      <div>
+      <div className="contact-form">
         <h1>Contact Us</h1>
         <form
           // action="/success"
@@ -20,7 +21,7 @@ class Contact extends Component {
           <br />
           <textarea name="message" required placeholder="Message" />
           <br />
-          <button type="submit">Yell at me!</button>
+          <button type="submit">Yell at us!</button>
           <Link to='/'>
             <button>Home</button>
           </Link>

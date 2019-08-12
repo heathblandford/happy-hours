@@ -25,6 +25,28 @@
   font-size: 3em;
 }
 
+.btn {
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-bottom: 20px;
+  display: inline-block;
+  margin: 5px;
+  vertical-align: top;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000000;
+  cursor: pointer;
+}
+
 /* media query */
 @media only screen and (max-width: 700px) {
   .main{

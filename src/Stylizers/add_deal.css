@@ -1,0 +1,66 @@
+h1 {
+  text-align: center;
+}
+
+.add-a-deal-wrapper{
+  text-align: center;
+  margin: 5% auto;
+  width: 50vw;
+  border: 1px solid black;
+}
+
+.add-a-deal-wrapper * {
+  margin: 10px;
+}
+
+.add-a-deal-wrapper input {
+  width: 80%;
+}
+
+.add-a-deal-wrapper textarea {
+  width: 80%;
+}
+
+:invalid {
+  box-shadow: none;
+}
+
+:-moz-submit-invalid {
+  box-shadow: none;
+}
+
+:-moz-ui-invalid {
+  box-shadow:none;
+}
+
+.add-a-deal-wrapper button {
+  border: 1px solid black;
+  background: transparent;
+  color: black;
+  font-family: monospace;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+}
+
+.add-a-deal-wrapper button:hover {
+  background: black;
+  color: white;
+}
+
+/* media query */
+@media screen and (max-width: 700px) {
+  .add-a-deal-wrapper {
+    width: 90vw;
+  }
+  .add-a-deal-wrapper form input {
+    width: 90%;
+    font-size: 0.8rem;
+  }
+  .add-a-deal-wrapper form textarea {
+    height: 100px;
+    width: 90%;
+    font-size: 1rem;
+  }
+}

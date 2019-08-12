@@ -1,5 +1,7 @@
-import React, { Component } from 'react';
-import Swal from 'sweetalert2';
+import React, { Component } from "react";
+import Swal from "sweetalert2";
+import "../Stylizers/update_bar.css";
+import { Link } from 'react-router-dom';
 
 class UpdateBar extends Component {
   handleSubmit = e => {
@@ -8,13 +10,13 @@ class UpdateBar extends Component {
     setTimeout(() => {
       this.setState({ modalIsOpen: false });
       Swal.fire({
-        title: 'Bar Updated!',
-        text: "Thanks for updating our info! We're looking at it now and we'll add it if we find it valid!",
-        type: 'success',
-        confirmButtonText: 'Close'
-      })
-
-    }, 500);// set time out so that the web page had time to submit the form
+        title: "Bar Updated!",
+        text:
+          "Thanks for updating our info! We're looking at it now and we'll add it if we find it valid!",
+        type: "success",
+        confirmButtonText: "Close"
+      });
+    }, 500); // set time out so that the web page had time to submit the form
 
     e.preventDefault();
   };
@@ -22,26 +24,26 @@ class UpdateBar extends Component {
   render() {
     const { barName } = this.props.location.state;
 
-    return(
-      <div>
-        <h1>Update a Bar!</h1>
-        <form
-          action={`https://enigmatic-lowlands-48374.herokuapp.com/cincy-bars/update-bar/${barName}`}
-          method='post'
-          target='dummyframe'
-          onSubmit={this.handleSubmit}
-          name="updateBar"
-        >
-          <h3>{barName}</h3>
+    return (
+      <div id='wrapper'>
+        <h1 id='title'>Update a Bar!</h1>
+        <div className="formWrapper">
+          <form
+            action={`https://enigmatic-lowlands-48374.herokuapp.com/cincy-bars/update-bar/${barName}`}
+            method="post"
+            target="dummyframe"
+            onSubmit={this.handleSubmit}
+            name="updateBar"
+          >
+            <h3 id="update-title">Updating information for: <span id='bar-title'>{barName}</span></h3>
 
-          <label for='to-update'>What would you like to Update?</label>
-          <select name='to-update' required>
-            <option value="bar-name">Bar Name</option>
-            <option value="deal">Deal</option>
-            <option value="neighborhood">Bar Name</option>
-          </select>
-
-          <label for="update-value">Happy Hour Special:</label>
+            <select name="to-update" required>
+              <option value="">Choose Something to Update...</option>
+              <option value="bar-name">Bar Name</option>
+              <option value="deal">Deal</option>
+              <option value="neighborhood">Neighborhood</option>
+              <option value="other">Other</option>
+            </select>
             <textarea
               cols="50"
               rows="5"
@@ -49,11 +51,15 @@ class UpdateBar extends Component {
               placeholder="Type your update here..."
               required
             />
-          
-          <button type='submit'>Send it!</button>
-        </form>
+
+            <button type="submit">Send it!</button>
+            <Link to='/deals'>
+              <button>Back to Deals</button>
+            </Link>
+          </form>
+        </div>
       </div>
-    )
+    );
   }
 }
 
