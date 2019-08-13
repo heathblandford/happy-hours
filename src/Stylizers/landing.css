@@ -25,6 +25,18 @@
   font-size: 3em;
 }
 
+.links {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.see-deal{
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
+
 .btn {
   background-color: transparent;
   border: 1px solid #fff;
@@ -38,6 +50,7 @@
   display: inline-block;
   margin: 5px;
   vertical-align: top;
+  width: 200px;
 }
 
 .btn:hover {
@@ -45,6 +58,19 @@
   color: #000;
   border: 1px solid #000000;
   cursor: pointer;
+}
+
+.btn-deals {
+  padding: 16px 32px;
+  background: #fff;
+  color: black;
+  margin: 0 auto;
+}
+
+.btn-deals:hover{
+  background: transparent;
+  color: white;
+  border: 1px solid white;
 }
 
 /* media query */
@@ -59,4 +85,13 @@
   .title-baby {
     font-size: 4em;
   }
+
+  .see-deal{
+    width: 80%;
+  }
+
+  .links{
+    width: 80%;
+  }
+  
 }
