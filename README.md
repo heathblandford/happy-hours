@@ -12,10 +12,11 @@ Pull Requests welcome!
 
 
 To Do:
+
 - [x] Modal on card click 
-    - [ ] "tell us we're wrong" feature would be. allows users to update happy hour deal
-- [ ] move from single JSON file to database
-    - [ ] Add your own on main page - should just be a + sign?
-- [ ] Finish design, and make look good... I'm not designer but I'll give it the ol' college try!
-    - [ ] consistent font styles across, and colors
+  - [x] "tell us we're wrong" feature would be. allows users to update happy hour deal
+- [x] move from single JSON file to database
+  - [x] Add your own on main page - should just be a + sign?
+- [x] Finish design, and make look good... I'm not designer but I'll give it the ol' college try!
+  - [ ] consistent font styles across, and colors
     - [ ] Colors? Branding?
