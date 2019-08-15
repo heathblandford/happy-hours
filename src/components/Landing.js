@@ -5,8 +5,9 @@ import '../Stylizers/landing.css';
 
 class Landing extends Component{
   render(){
+    const imgURL = require(`../../public/adam-wilson-6UIonphZA5o-unsplash-smol.jpg`);
     return(
-      <div className='main'>
+      <div className='main' style={{backgroundImage: `url(${imgURL})`}}>
         <h1 className="title-baby">Pour Decisions</h1>
         <h5 className="slogan">All of the Best Happy Hour Deals</h5>
         <div className="see-deal">
@@ -26,7 +27,6 @@ class Landing extends Component{
           </Link>
         </div>
 
-        <p>Photo by Adam Wilson on Unsplash</p>
       </div>
     )
   }
