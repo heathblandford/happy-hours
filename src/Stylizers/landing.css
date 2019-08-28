@@ -1,0 +1,97 @@
+.main {
+  background-image: url('../assets/bar-smol-xtra.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.main {
+  margin: 0;
+  text-align: center;
+}
+
+.title-baby {
+  margin: 0;
+  color: chartreuse;
+  font-size: 8em;
+}
+
+.slogan {
+  margin: 0;
+  font-size: 3em;
+}
+
+.links {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.see-deal{
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
+
+.btn {
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-bottom: 20px;
+  display: inline-block;
+  margin: 5px;
+  vertical-align: top;
+  width: 200px;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000000;
+  cursor: pointer;
+}
+
+.btn-deals {
+  padding: 16px 32px;
+  background: #fff;
+  color: black;
+  margin: 0 auto;
+}
+
+.btn-deals:hover{
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+/* media query */
+@media only screen and (max-width: 700px) {
+  .main{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh !important;
+  }
+
+  .title-baby {
+    font-size: 4em;
+  }
+
+  .see-deal{
+    width: 80%;
+  }
+
+  .links{
+    width: 80%;
+  }
+  
+}

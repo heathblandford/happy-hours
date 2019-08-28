@@ -1,0 +1,37 @@
+#about {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.about-button {
+  border: 1px solid black;
+  width: 150px;
+  background: transparent;
+  color: black;
+  font-family: monospace;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.about-button:hover {
+  background: black;
+  color: white;
+}
+
+.router{
+  margin-left: 10px;
+}
+
+/* media query */
+@media screen and (max-width: 700px) {
+  .router{
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+
+  #about {
+    margin-bottom: 10%;
+  }
+}

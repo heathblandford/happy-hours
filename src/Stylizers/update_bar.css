@@ -1,0 +1,92 @@
+#wrapper {
+  min-height: 100vh;
+  height: 100%;
+  background: rgb(238,174,202);
+  background: linear-gradient(45deg, rgba(238,174,202,1) 0%, rgba(233,144,47,1) 100%); 
+}
+
+#title {
+  text-align: center;
+  margin: 0;
+}
+
+#update-title {
+  color: white;
+}
+
+#bar-title {
+  color: white;
+  text-decoration: underline;
+  font-size: 1.4rem;
+}
+
+.formWrapper {
+  text-align: center;
+  margin: 5% auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 50vw;
+  border-radius: 15px;
+}
+
+.formWrapper form * {
+  margin: 20px 0px;
+  border: none;
+}
+
+.formWrapper form select {
+  width: 85%;
+  height: 50px;
+  background: transparent;
+  color: white;
+  font-size: 1.2rem;
+  font-family: monospace;
+  padding-left: 10px;
+  border: 1px solid white;
+}
+
+.formWrapper form textarea {
+  height: 200px;
+  width: 85%;
+  background: transparent;
+  color: white;
+  font-size: 1.2rem;
+  font-family: monospace;
+  padding-left: 10px;
+  padding-top: 5px;
+  resize: none;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+.formWrapper form button {
+  border: 1px solid white;
+  border-radius: 15px;
+  background: transparent;
+  color: white;
+  font-family: monospace;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 20px;
+  margin: 10px;
+}
+
+.formWrapper form button:hover {
+  background: white;
+  color: black;
+}
+
+/* media query */
+@media screen and (max-width: 700px) {
+  .formWrapper {
+    width: 90vw;
+  }
+  .formWrapper form select {
+    width: 90%;
+    font-size: 0.8rem;
+  }
+  .formWrapper form textarea {
+    height: 100px;
+    width: 90%;
+    font-size: 1rem;
+  }
+}
