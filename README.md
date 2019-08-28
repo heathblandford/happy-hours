@@ -20,3 +20,4 @@ To Do:
 - [x] Finish design, and make look good... I'm not designer but I'll give it the ol' college try!
   - [ ] consistent font styles across, and colors
     - [ ] Colors? Branding?
+-[ ] submit on contact us isn't working
