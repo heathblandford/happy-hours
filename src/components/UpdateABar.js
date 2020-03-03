@@ -35,9 +35,9 @@ class UpdateBar extends Component {
             onSubmit={this.handleSubmit}
             name="updateBar"
           >
-            <h3 id="update-title">Updating information for: <span id='bar-title'>{barName}</span></h3>
+            <h3 id="update-title" name="Bar">Updating information for: <span id='bar-title'>{barName}</span></h3>
 
-            <select name="to-update" required>
+            <select name="toUpdate" required>
               <option value="">Choose Something to Update...</option>
               <option value="bar-name">Bar Name</option>
               <option value="deal">Deal</option>
@@ -47,7 +47,7 @@ class UpdateBar extends Component {
             <textarea
               cols="50"
               rows="5"
-              name="update-value"
+              name="updateValue"
               placeholder="Type your update here..."
               required
             />
